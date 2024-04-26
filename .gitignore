@@ -1,0 +1,5 @@
+.DS_Store
+node_modules/
+pnpm-lock.yaml
+site/.vitepress/cache
+site/.vitepress/dist
