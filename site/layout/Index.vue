@@ -4,8 +4,13 @@ import Logo from './Logo.vue';
 import { useData } from 'vitepress';
 const { page, frontmatter, theme } = useData();
 </script>
-
+<script client>
+import '../src/index.ts';
+</script>
 <style>
+@import url(../static/fonts.css);
+@import url(../static/styles.css);
+
 a {
   color: #ff75e5;
   text-decoration: none;

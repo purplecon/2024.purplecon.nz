@@ -18,12 +18,7 @@ export default defineConfigWithTheme<ThemeConfig>({
   description: 'something about security',
   mpa: true,
 
-  head: [
-    ['link', { rel: 'icon', href: '../static/logo-64.png' }],
-    ['link', { rel: 'stylesheet', href: '../static/fonts.css' }],
-    ['link', { rel: 'stylesheet', href: '../static/styles.css' }],
-    ['script', { src: '../src/index.ts', type: 'module' }],
-  ],
+  head: [['link', { rel: 'icon', href: './public/logo-64.png' }]],
 
   vue: {
     template: {
