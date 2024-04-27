@@ -1,11 +1,19 @@
-<script setup>
+<script setup lang="ts">
 import Nav from './Nav.vue';
 import Logo from './Logo.vue';
 import { useData } from 'vitepress';
 const { page, frontmatter, theme } = useData();
 </script>
-<script client>
+<script client lang="ts">
 import '../src/index.ts';
+</script>
+<script lang="ts">
+// Vitepress is confused about dev/client envs for MPAs.
+// The "script client" above isn't run during dev, but this is.
+// So import the site's code, even though it'll act as a SPA.
+if (import.meta.env.DEV) {
+  await import('../src/index.ts');
+}
 </script>
 <style>
 @import url(../static/fonts.css);

@@ -55,7 +55,7 @@ header {
     </div>
     <div class="heading">
       <h1>purplecon</h1>
-      <img src="../public/logo-64.png" class="logo" loading="lazy" width="64" height="64" />
+      <img src="../static/logo-64.png" class="logo" loading="lazy" width="64" height="64" />
     </div>
   </header>
 </template>
