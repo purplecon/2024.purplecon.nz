@@ -18,7 +18,8 @@ export default defineConfigWithTheme<ThemeConfig>({
   description: 'something about security',
   mpa: true,
 
-  head: [['link', { rel: 'icon', href: './public/logo-64.png' }]],
+  // this is in 'public', but it's copied to the top-level before release
+  head: [['link', { rel: 'icon', href: './logo-64.png' }]],
 
   vue: {
     template: {
