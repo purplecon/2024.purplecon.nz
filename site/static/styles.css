@@ -17,6 +17,25 @@ section {
   }
 }
 
+span {
+
+  &.special {
+    color: #a6cdfa;
+  }
+
+  &.fancy {
+    font-family: "Great Vibes", cursive, serif;
+  }
+}
+
+ul {
+  &.no-dots {
+    list-style-type: none;
+    text-align: left;
+  }
+}
+
+
 main {
   display: flex;
   flex-flow: row wrap;
