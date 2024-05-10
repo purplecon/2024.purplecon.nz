@@ -99,7 +99,7 @@ nav {
 </style>
 <template>
   <nav>
-    <button class="mobile-open">nav 👀</button>
+    <button class="mobile-open">heyy 👀</button>
     <div class="nav-holder">
       <div class="nav-items">
         <template v-for="item in theme.nav" :key="item.href">

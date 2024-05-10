@@ -20,7 +20,10 @@ section {
 span {
 
   &.special {
-    color: #a6cdfa;
+    margin: 24px 0;
+    font-weight: 500;
+    /* letter-spacing: -2px; */
+    text-shadow: 0 3px 0 #7c17dfaa;
   }
 
   &.fancy {
@@ -35,6 +38,12 @@ ul {
   }
 }
 
+hr {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-color: #f2c8fd;
+  max-width: 500px;
+}
 
 main {
   display: flex;
@@ -79,5 +88,7 @@ main {
     p {
       margin-top: 0;
     }
+
   }
+
 }

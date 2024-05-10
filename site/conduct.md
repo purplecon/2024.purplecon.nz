@@ -27,16 +27,19 @@
 </p>
 <p>
   We take all reports seriously, and will use discretion when responding to a report. We will be logging all reports that
-  are made.
+  are made. 
 </p>
 <p>
+Contact details for reporting will be published here closer to the day.
+</p>
+<!-- <p>
   To make a report, you can:
 </p>
 <p>
   Email: <a href="mailto:report@purplecon.nz">report@purplecon.nz</a><br>
   Call / Text / Signal: <a href="tel:+64224258493">+64 22 425 84938</a><br>
   Or find the nearest purplecon volunteer or staff member.
-</p>
+</p> -->
 <p>
 This code of conduct was heavily based on <a href="//kiwicon.org">Kiwicon's</a>, &lt;3.
 </p>

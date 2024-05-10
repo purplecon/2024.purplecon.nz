@@ -3,36 +3,38 @@ layout: home
 ---
 
 <section class="mid">
-  <p>security wisdom | rebelling in your own way | <span class="special">each other</span></p>
+  <p>security wisdom | rebelling in your own way | <span class="special">together</span></p>
 </section>
 
-<hr></hr>
+<hr>
 
 <section class="mid">
 <ul class="no-dots">
-  <li> 📅 8th November 2024</li>
-  <li> 📍The State <span class="fancy">Library</span> of New South Wales, Sydney, Australia</li>
+  <li> 📅 8th november 2024</li>
+  <li> 📍the state <span class="fancy">Library</span> of new south wales, sydney, australia</li>
 </ul>
 </section>
 
-<!-- <section>
+<hr>
+
+<br>
+<br>
+<br>
+<br>
+
+<section>
   <main>
     <article>
       <p-books></p-books>
-      <h2>omg purplecon is back??</h2>
+      <h2>sorry but w-</h2>
       <div class="content">
-        <p>we're <em>so</em> back</p>
-      </div>
-    </article>
-    <article>
-      <p-books></p-books>
-      <h2>hey sorry but w-</h2>
-      <div class="content">
-        <p>ah it's kinda like a security conference but soooo fun</p>
+        <p>
+          come back soon for more Content
+        </p>
       </div>
     </article>
   </main>
-</section> -->
+</section>
 
 <br>
 <br>
@@ -43,11 +45,15 @@ layout: home
 <br>
 <br>
 <section>
-<!-- <h2>now what?</h2>
-<p>no yeah it's literally a mailing list</p> -->
 </section>
+
 <section class="ml">
   <p-mailer>
     <div class="ml-embedded" data-form="cMpgpW"></div>
   </p-mailer>
+</section>
+<section class="mid">
+<p>
+        <a href="https://twitter.com/purpleconnz">twitter</a> | or i guess <a href="mailto:hello@purplecon.nz">email</a>
+        </p>
 </section>

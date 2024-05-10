@@ -58,16 +58,6 @@ body {
   max-width: 800px;
   padding: 32px;
 }
-span.fancy {
-   font-family: "Great Vibes", cursive, serif;
-}
-span.special{
-}
-ul.no-dots {
-  list-style-type: none;
-  text-align: left;
-}
-
 </style>
 <template>
   <Nav />

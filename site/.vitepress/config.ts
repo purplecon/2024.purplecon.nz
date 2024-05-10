@@ -15,7 +15,7 @@ The site is built with VitePress, which has its config here:
 export default defineConfigWithTheme<ThemeConfig>({
   lang: 'en',
   title: 'purplecon',
-  description: 'something about security',
+  description: '👀',
   mpa: true,
 
   // this is in 'public', but it's copied to the top-level before release
@@ -40,6 +40,10 @@ export default defineConfigWithTheme<ThemeConfig>({
       {
         title: 'conduct',
         href: '/conduct',
+      },
+      {
+        title: 'last time',
+        href: 'https://2019.purplecon.nz',
       },
     ],
   },
