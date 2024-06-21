@@ -15,6 +15,27 @@ section {
     flex-flow: column;
     justify-content: flex-start;
   }
+
+  header {
+    h1 {
+      margin: 24px 0;
+      font-weight: 500;
+      letter-spacing: -2px;
+      font-size: 3em;
+      text-shadow: 0 4px 0 #7c17dfaa;
+
+      @media (max-width: 600px) {
+        font-size: 2.5em;
+      }
+    }
+
+  }
+}
+
+.ethereal {
+  letter-spacing: 2px;
+  text-shadow: 0 -8px 0 #7c17dfaa;
+  font-family: math;
 }
 
 span {
@@ -32,9 +53,12 @@ span {
 }
 
 ul {
+  &.left {
+    text-align: left;
+  }
+
   &.no-dots {
     list-style-type: none;
-    text-align: left;
   }
 }
 
