@@ -9,7 +9,7 @@ layout: home
 <hr>
 
 <section class="mid">
-<ul class="no-dots">
+<ul class="no-dots left">
   <li> 📅 8th november 2024</li>
   <li> 📍the state <span class="fancy">Library</span> of new south wales, sydney, australia</li>
 </ul>
