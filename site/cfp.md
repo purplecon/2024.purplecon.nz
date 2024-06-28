@@ -8,11 +8,10 @@
       <p-books></p-books>
     </div>
     <div class="heading">
-      <h1>call for papers</h1>
+      <h1>submit a talk</h1>
       <ul class="no-dots">
-        <li><strong>cfp opens</strong>: july 11</li>
-        <li><strong>cfp closes</strong>: september 12</li>
-        <li><strong>rehearsals</strong>: october</li>
+        <li><strong>submissions open</strong>: july 11</li>
+        <li><strong>submissions close</strong>: september 1</li>
       </ul>
     </div>
   </header>
@@ -22,7 +21,7 @@
 <br>
 <br>
 
-you oh you could be on the BIG screen, the main stage, in front of an audience of the wonkiest and most powerful teens in these lands.
+you oh you could be on the BIG screen, the main stage, in front of an audience of the wonkiest and most powerful kids in these lands.
 <section>
       <p-books></p-books>
 </section>
@@ -31,7 +30,7 @@ you oh you could be on the BIG screen, the main stage, in front of an audience o
 ## rehearsals
 we are doing some craaAaazy nonsense with talks this year.
 
-we're not planning on having as many hours of talks as the other girls (conferences), and we realise we have a pretty niche <span class="fancy">Vibe</span> we're going for. we realise we're asking for a lot, so we want to help our speakers.
+we're not planning on having as many hours of talks as the other girls (conferences), and we have a pretty niche <span class="fancy">Vibe</span> we're going for. we realise we're asking for a lot, so we want to help our speakers.
 
 if your talk gets accepted, we will ask you to do one (1) rehearsal of that talk for us before the actual day of purplecon. this has a blossoming paradise of benefits, such as making sure you have actually seen your slides before you go on stage.
 
@@ -51,7 +50,7 @@ we're looking for talks that are:
 * **inspirational**
   * the audience learns they can _do_ something they couldn't before, sparking the flames of passion in their hearts etc. etc. or similar
 
-they don't _strictly_ have to be about computers, security, or Business Value. but it's ok if they are we all gotta love and cherish the shareholder sometimes
+they don't _strictly_ have to be about computers, security, or Business Value. but it's ok if they are we all gotta love and cherish the shareholder sometimes.
 
 note: talk titles containing the text "for fun and profit" will be difficult to distinguish from every other talk with that same joke in it. we recommend using a more descriptive title.
 
@@ -74,16 +73,16 @@ if you’d like us to link out to your own site/blog/minecraft server, we can de
 </section>
 
 ## wait but that sounds scary i'm spooked 
-ohhhh it's okay, little leaf. you will one day grow up big and strong, and we will nurture you with our watering cans.
+ohhhh it's okay, little leaf🌱. you will one day grow up big and strong, and we will nurture you with our watering cans.
 
-there is an option in the cfp form to ask us for wise guidance. we can help you write your talk, or even help you if you have a vague idea for something you might want to talk about but aren't sure how to do it. let us know! 💜
+there is an option in the cfp form to ask us for our limitless celestial guidance. we can help you write your talk, or even help you if you have a vague idea for something you might want to talk about but aren't sure how to do it. let us know! 💜
 
 <section>
       <p-books></p-books>
 </section>
 
 ## submit a talk to purplecon
-<div class="ethereal">
-<p>you're about to miss the bus. </p>
-<p>before the door can close, a manhole cover bursts open. thousands upon thousands of cherry blossom petals erupt into the sky. passengers are in awe. in the distraction, you slip on board. the transit card reader bleeps <a href="#">"submit a talk to purplecon"</a></p>
+<div>
+  <span class="ethereal">you're about to miss the bus. </span>
+  <p><span class="ethereal">before the door can close, a manhole cover bursts open. thousands upon thousands of cherry blossom petals erupt into the sky. passengers are in awe. in the distraction, you slip on board. the transit card reader bleeps </span><a href="https://forms.gle/EvY14HLVjwuWuNNG9">"submit a talk to purplecon"</a></p>
 </div>
