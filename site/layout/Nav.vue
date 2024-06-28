@@ -104,7 +104,7 @@ nav {
     <div class="nav-holder">
       <div class="nav-items">
         <template v-for="item in theme.nav" :key="item.href">
-          <a :href="item.href">{{ item.title }}</a>
+          <a :href="item.href" tabindex="0">{{ item.title }}</a>
         </template>
       </div>
     </div>
