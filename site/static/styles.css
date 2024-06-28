@@ -30,12 +30,29 @@ section {
     }
 
   }
+
+  &.top {
+    padding: 40px 12px;
+  }
 }
 
-.ethereal {
-  letter-spacing: 2px;
-  text-shadow: 0 -8px 0 #7c17dfaa;
-  font-family: math;
+.mid {
+  text-align: center;
+}
+
+
+@keyframes wobble {
+  0% {
+    transform: skewX(0deg) skewY(0deg);
+  }
+
+  50% {
+    transform: skewX(5deg) skewY(-2deg);
+  }
+
+  100% {
+    transform: skewX(0deg) skewY(0deg);
+  }
 }
 
 span {
@@ -50,6 +67,21 @@ span {
   &.fancy {
     font-family: "Great Vibes", cursive, serif;
   }
+
+
+  &.ethereal {
+    letter-spacing: 2px;
+    font-family: math;
+
+    background-image: url(https://media.giphy.com/media/gG6xmgCgm4BadaD45x/giphy.gif);
+    /* background-image: url(https://media.giphy.com/media/3o85xKUcoUY8SrqcvK/giphy.gif); */
+    /* background-image: url(https://media.giphy.com/media/ONrxkeF1EZfzb1fwxS/giphy.gif); */
+    background-size: auto;
+    background-repeat: repeat;
+    background-clip: text;
+    color: #ffffff88;
+  }
+
 }
 
 ul {
@@ -116,3 +148,6 @@ main {
   }
 
 }
+
+
+.ethereal {}

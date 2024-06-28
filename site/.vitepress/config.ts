@@ -61,12 +61,12 @@ export default defineConfigWithTheme<ThemeConfig>({
         href: '/cfp',
       },
       {
-        title: 'tickets',
-        href: '/tickets',
-      },
-      {
         title: 'conduct',
         href: '/conduct',
+      },
+      {
+        title: 'tickets',
+        href: '/tickets',
       },
       {
         title: '$ponsors',
