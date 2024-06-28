@@ -18,8 +18,6 @@ if (import.meta.env.DEV) {
 <style>
 @import url(../static/fonts.css);
 @import url(../static/styles.css);
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
-
 
 a {
   color: #ff75e5;
