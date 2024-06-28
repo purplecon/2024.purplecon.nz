@@ -22,4 +22,4 @@
 
 you oh you could direct company funds to purplecon 2024, supporting a community of current and future security enthusiasts from hugely diverse backgrounds.
 
-take a look at the [sponsorship prospectus](/purplecon-sponsorship.pdf), or contact us at hello@purplecon.org. we'd love to hear from you!
+take a look at the [sponsorship prospectus](/purplecon-sponsorship.pdf), or contact us at hello@purplecon.org to learn more 👀
