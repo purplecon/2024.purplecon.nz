@@ -15,6 +15,7 @@ nav {
   align-items: center;
   justify-content: center;
   z-index: 100;
+  -webkit-backdrop-filter: blur(4px); /* safari */
   backdrop-filter: blur(4px);
 
   .nav-items {
