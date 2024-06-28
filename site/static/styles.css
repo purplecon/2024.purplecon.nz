@@ -104,7 +104,7 @@ hr {
 main {
   display: flex;
   flex-flow: row wrap;
-  gap: 12px;
+  gap: 24px;
   box-sizing: border-box;
   align-items: flex-start;
 
