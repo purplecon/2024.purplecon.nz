@@ -10,7 +10,7 @@
     <div class="heading">
       <h1>tickets</h1>
       <ul class="no-dots">
-        <li><strong>tickets release:</strong>~September </li>
+        <li><strong>tickets release: </strong>~September </li>
       </ul>
     </div>
   </header>
