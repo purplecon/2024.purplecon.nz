@@ -3,7 +3,7 @@ layout: home
 ---
 
 <section class="mid">
-  <p>security wisdom | rebelling in your own way | <span class="special">together</span></p>
+  <p>security wisdom | rebelling in your own way | <span class="ethereal">together</span></p>
 </section>
 
 <hr>
@@ -79,7 +79,7 @@ layout: home
       <a href="//twitter.com/ryankurte">@ryankurte</a>, 
       <a href="//twitter.com/jsstott">@jsstott</a>, 
       <a href="//twitter.com/nickyringland">@nickyringland</a>, and
-      <a href="//#">anton</a>
+      <a href="//twitter.com/noqry">anton</a>
       </p>
       <p>
       you can contact us on <a href="https://twitter.com/purpleconnz">twitter (@purpleconnz)</a>, at <a href="mailto:hello@purplecon.org">hello@purplecon.org</a> or by talking into any banana like it's a phone.
