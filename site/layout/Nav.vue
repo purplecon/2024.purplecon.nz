@@ -15,6 +15,7 @@ nav {
   align-items: center;
   justify-content: center;
   z-index: 100;
+  -webkit-backdrop-filter: blur(4px); /* safari */
   backdrop-filter: blur(4px);
 
   .nav-items {
@@ -99,11 +100,11 @@ nav {
 </style>
 <template>
   <nav>
-    <button class="mobile-open">heyy 👀</button>
+    <button class="mobile-open" tabindex="-1">heyy 👀</button>
     <div class="nav-holder">
       <div class="nav-items">
         <template v-for="item in theme.nav" :key="item.href">
-          <a :href="item.href">{{ item.title }}</a>
+          <a :href="item.href" tabindex="0">{{ item.title }}</a>
         </template>
       </div>
     </div>
