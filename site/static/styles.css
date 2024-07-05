@@ -40,21 +40,6 @@ section {
   text-align: center;
 }
 
-
-@keyframes wobble {
-  0% {
-    transform: skewX(0deg) skewY(0deg);
-  }
-
-  50% {
-    transform: skewX(5deg) skewY(-2deg);
-  }
-
-  100% {
-    transform: skewX(0deg) skewY(0deg);
-  }
-}
-
 span {
 
   &.special {
@@ -72,7 +57,6 @@ span {
   &.ethereal {
     letter-spacing: 2px;
     font-family: math;
-
     background-image: url(https://media.giphy.com/media/gG6xmgCgm4BadaD45x/giphy.gif);
     /* background-image: url(https://media.giphy.com/media/3o85xKUcoUY8SrqcvK/giphy.gif); */
     /* background-image: url(https://media.giphy.com/media/ONrxkeF1EZfzb1fwxS/giphy.gif); */
