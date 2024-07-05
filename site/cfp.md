@@ -9,10 +9,8 @@
     </div>
     <div class="heading">
       <h1>submit a talk</h1>
-      <ul class="no-dots">
-        <li><strong>submissions open</strong>: july 11</li>
-        <li><strong>submissions close</strong>: september 1</li>
-      </ul>
+      <p><a href="https://forms.gle/EvY14HLVjwuWuNNG9"><span class="ethereal">talk submissions open now 👀</span></a></p>
+      <p><strong>submissions close</strong>: september 1</p>
     </div>
   </header>
 </section>
@@ -30,10 +28,12 @@ you oh you could be on the BIG screen, the main stage, in front of an audience o
 ## rehearsals
 we are doing some craaAaazy nonsense with talks this year.
 
+#### it's good to practice
 we're not planning on having as many hours of talks as the other girls (conferences), and we have a pretty niche <span class="fancy">Vibe</span> we're going for. we realise we're asking for a lot, so we want to help our speakers.
 
 if your talk gets accepted, we will ask you to do one (1) rehearsal of that talk for us before the actual day of purplecon. this has a blossoming paradise of benefits, such as making sure you have actually seen your slides before you go on stage.
 
+#### feedback
 we (mangopdf) will then give you feedback on this rehearsal, and help you make your talk even better. we're not insisting you _do_ anything with this feedback, or that you have to change your talk to be how we want it or anything. it's just there if it helps. we want you to get the audience all starry-eyed, so we'll plot/scheme/mastermind your talk with you.
 
 <section>
@@ -66,7 +66,6 @@ we would like to see:
 * some kind of document to support your talk
 
 if you’d like us to link out to your own site/blog/minecraft server, we can definitely do that too.
-
 
 <section>
       <p-books></p-books>
