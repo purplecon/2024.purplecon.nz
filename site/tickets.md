@@ -49,7 +49,7 @@ are for anyone
 ## what does “marginalised” mean?
 "to marginalise is to treat (a person, group, or concept) as insignificant or peripheral"
 
-in the context of the security industry, some examples of people who tend to experience marginalisation include (but are not limited to) women, non-binaryp people, trans people, people of colour, people of different ages, people who are differently abled. this is also sometimes referred to as “social exclusion”, and it often means people from these groups have less access to rights, resources, and opportunities.
+in the context of the security industry, some examples of people who tend to experience marginalisation include (but are not limited to) women, non-binary people, trans people, people of colour, people of different ages, people who are differently abled. this is also sometimes referred to as “social exclusion”, and it often means people from these groups have less access to rights, resources, and opportunities.
 
 ## why is it good to have people from marginalised groups?
 by working together but being different to eachother, you’re stronger. in diversity, there is strength. in [experiments](https://scholar.google.com/scholar?q=diverse+teams), diverse teams perform better.
