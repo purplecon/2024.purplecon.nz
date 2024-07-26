@@ -65,7 +65,7 @@ layout: home
       <h1>code of conduct</h1>
       </header>
       <div class="content mid">
-      we want <em>everyone</em> to feel safe here. <a href="//conduct">here's the rules.</a>
+      we want <em>everyone</em> to feel safe here. <a href="/conduct">here's the rules.</a>
       </div>
 </section>
 <section class="top">
