@@ -1,5 +1,11 @@
 # ohhh it's happening again
 
+## Usage
+To play the game, double-click that index.html or do something cool to hotload like
+```shell
+python3 -m http.server
+```
+
 Important files:
 
 * `purplecon.ink` (Story source code)
@@ -11,8 +17,12 @@ Important files:
 - `settings.js` (ya)
 - `your-story.js` (the purplecon.ink source code gets compiled to this (by either the editor, inky, or the `inklecate` CLI. don't worry about this unless you're editing the story itself))
 
+## What to do next
+* Serve this page from the actual website, at `/library`
+* make the css not terrible and nice and mobile friendly
+* finish the story haha, lmao, xd
 
-
+## More documentation
 The structure of this directory is taken from `ink-soaked`, so below is the README for `ink-soaked`. Enjoy getting drenched.
 
 ---
