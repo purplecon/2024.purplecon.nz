@@ -47,7 +47,7 @@
 === library
 
 the sun is beaming through the skylights at the library.
-
+through the excited chatter, one voice breaks through.
 ->girl
 
 === girl
@@ -79,11 +79,11 @@ the sun is beaming through the skylights at the library.
     * * * (bracelet_lie) [(go all in on the lie) "that's crazy haha"]
         "....huh. i guess i'll let you know if i see anywhere that looks plot-relevant to use it"
         -> topic_change
-* (bracelet_lie_caught) {lore}  [(lie) "it's just a bracelet haha"]
-    "it's just that you said you were found wearing it among the smoking wreckage of some ancient ruins when you were a baby"
-    * * [(genuine) "sorry i was trying to seem mysterious"]
-    * * [(flirting) "sorry i was trying to seem mysterious"]
-    //->TODO
+// * (bracelet_lie_caught) {lore}  [(lie: it is definitely not just a bracelet) "it's just a bracelet haha"]
+//     "it's just that you said you were found wearing it among the smoking wreckage of some ancient ruins when you were a baby"
+//     * * [(genuine) "sorry i was trying to seem mysterious"]
+//     * * [(flirting) "sorry i was trying to seem mysterious"]
+//     ->TODO
         
         
 * {lore} ["of course! maybe like it fits in a hole that's the same shape at the bottom of the ruins in my hometown that only open once every 1000 years"]
@@ -130,9 +130,12 @@ you start to say something. {topic_change:"let's..."|"hey maybe we should..."}
         "yeah my plant thing"
         -> leavechoices
     * * {!girl.bracelet_is_normal} ["haha yeah, and i do NOT wanna be late, i got a good feeling about being at the ancient ruins right on midnight haha"]
-    * * (normalmode) {girl.bracelet_is_normal} ["well yes i suppose it is getting late. this is just a normal bracelet i'm wearing with nothing interesting about it so. i guess time to go normal mode."]
+    * * (normalmode) {girl.bracelet_is_normal} ["well yes i suppose it is getting late. this is just a normal bracelet i'm wearing with nothing interesting about it so. i guess time to go normal mode and go home."]
         "normal mode"
-        she is t-posing.
+        * * * [next]
+        - - - she is t-posing.
+        * * * [next]
+        -> ending
     - - -> ending
 * [actually, don't say anything]
     "? {topic_change:let's|maybe we should} what?"
@@ -147,8 +150,7 @@ you start to say something. {topic_change:"let's..."|"hey maybe we should..."}
 ->DONE
 
 === bubbletea
-# color: bubbletea 
-ah, the bubble tea stand. a reliable stable at any library.
+ah, the bubble tea stand. a reliable staple at any library.
 
 "what are you gonna get?"
 * ["ooo i think i'll get strawberry..."]
@@ -185,18 +187,19 @@ ah, the bubble tea stand. a reliable stable at any library.
 -
 "oooo, yummo."
 * ["how about you?"]
-"hmmm i think i'll get thai milk tea. i love thai milk tea. it's sweet and spicy, like me"
+- "hmmm i think i'll get thai milk tea. i love thai milk tea. it's sweet and spicy, like me"
 * [nod solemnly in agreement]
-she's nodding along
+- she's nodding along
 * ["hey this is a pretty big list of bubble tea options"]
-"yeah, especially for a library"
+- "yeah, especially for a library"
 * ["do you think this like, should set our expectations for what to expect from any other libraries we go to in the future?"]
-"hmmmm, i don't think so. i don't think other um libraries would really be able to guarantee they'd have these exact flavours or toppings. it's a lot of work organising bubble tea at a conference"
+- "hmmmm, i don't think so. i don't think other um libraries would really be able to guarantee they'd have these exact flavours or toppings. it's a lot of work organising bubble tea at a conference"
 * [look directly at the camera]
+- 
 * ["you mean library?"]
-    "yeah that's what i said"
+-    "yeah that's what i said"
 * ["hey look, i think our bubble teas are ready"]
-"yummo"
+- "yummo"
 - ->straw
 
 - (straw)
@@ -211,7 +214,7 @@ you gently pick up the bubble tea, patting it gingerly to make sure it feels com
         * * * [stab the bubble tea lid with the straw]
         pop!
         -> tea
-        * * * [...do we always have to fight?]
+        * * * (gentle_with_bubble_tea) [...do we always have to fight?]
             you gently peel off the lid of the bubble tea and set it aside.
             your straw floats gently among the ice and the jellies
             * * * * [much better :)]
@@ -219,7 +222,7 @@ you gently pick up the bubble tea, patting it gingerly to make sure it feels com
 - (tea)
 yummo, the tea is {lowsugar|nosugar:not too sweet and very tasty|sweet and tasty}, perfect nourishment for growing teens.
 * ["this is the best library ever"]
-* {!notopping} [(mouth full of toppings) "thish ish thuh besht libarby evuh"]
+* (mouthfull) {!notopping} [(mouth full of toppings) "thish ish thuh besht libarby evuh"]
 - "heck yeah it is"
 
 [bubble tea drinking noises]
@@ -234,14 +237,15 @@ yummo, the tea is {lowsugar|nosugar:not too sweet and very tasty|sweet and tasty
 
 === bookshelf 
 you go to the uh "books" section and uh select the "books" submenu listen i dunno
-
-"what kinda books do you wanna look for?"
+* [next]
+- "what kinda books do you wanna look for?"
 * ["hmmm i dunno, just anything that seems interesting?"]
 -
 "huh, well. let's see what's on this shelf"
 // replace eggs a history with a real book, hide something in that real book in the library
 // replace secret item with something we can actually hide in there on the day. more than one?
 hmmmm <em>"judgement under uncertainty: heuristics and biases"</em>, <em>"encyclopedia of qr codes"</em>, <em>"eggs: a history"</em>.....
+* [next]
 looks like there's nothing interesting here
 <- back(-> afterbooks)
 * [...unless?]
@@ -271,8 +275,9 @@ looks like there's nothing interesting here
                             * * * * * * * * (secret) [YES GIMME]
                                 you open up "REAL_BOOK_NAME", and a playing card falls out. it's the three of hearts.
                                 you put it back where you found it, for the next person, then gently pat the book closed.
+                                -> afterbooks
 - 
-* ["nice"]->afterbooks
+* ["boringggg"]->afterbooks
 
 //= secretbracletbook
 //
@@ -283,33 +288,95 @@ looks like there's nothing interesting here
     ->topic_change
 - else:
     * ["well that was certainly books"]
-    "books"
-    ->topic_change
+        "books"
+        * * [next]
+            ->topic_change
 }
-
-
 
 === ending
 on the way out of the library, you see an enormous sheet of paper sprawled across the floor.
-    coloured markers, pencils, crayons, stickers- is that <em>glitter</em>?
-    
-    there are a lot of arts and crafts supplies to be sure.
-    
-    "!!!"
-    * ["!!!"]
-    "awwww everyone's just drawing on the giant sheet of paper"
-    "suuurely we draw something before we go"
-    - 
-    * ["suuuurely"]
-    -> draw
-    
-= draw
-you draw...
+* [next]
+- there are coloured markers, pencils, crayons, stickers- is that <em>glitter</em>?
+* [next]    
+- there are a lot of arts and crafts supplies to be sure.
+"!!!"
+* ["awwww everyone's just drawing together on the giant sheet of paper"]
+- "so cuuuute"
+* ["suuurely we draw something before we go"]
+-> draw
 
-* {girl.glows} your bracelet, glowing
-* {girl.glows_normal_amount} your bracelet, glowing the normal amount
-* {girl.boring} [your regular, normal bracelet]. it's just a bracelet. you are basically just going to draw a circle and you are okay with that
-* {girl.girl_has_bracelet} both of your bracelets, linked together
-* {girl.bracelet_lie} [your bracelet, but try really hard to make it look like just a normal bracelet.] basically just a circle
+= draw
+VAR draw1 = false
+VAR draw2 = false
+VAR draw3 = false
+VAR draw4 = false
+VAR draw5 = false
+VAR draw6 = false
+- (draw1choices) ohhhh it is time to draw some stuff. you draw....
+*  {girl.glows} [your bracelet, glowing]
+    ~ draw1 = "a glowing bracelet"
+* {girl.glows_normal_amount} [your bracelet, glowing the normal amount]
+    ~ draw1 = "a bracelet, glowing the normal amount"
+* {girl.boring} [your regular, normal bracelet. it's just a bracelet. you are basically just going to draw a circle and you are okay with that]
+    ~ draw1 = "a plain ol' circle"
+* {girl.girl_has_bracelet} [both of your bracelets, linked together]
+    {girl.glows: 
+        ~ draw1 = "two bracelets, linked together. the left one is glowing."
+    - else:
+        ~ draw1 = "two bracelets, linked together."
+    }
+* {girl.bracelet_lie} [your bracelet, but try really hard to make it look like just a normal bracelet. basically just a circle]
+    ~ draw1 = "a shakily-drawn circle"
+* ->
+- (draw2choices) 
+* {girl.milleniumfestival} [both of you running into eachother at the same ancient ruins tonight, what a coincidence!!]
+    ~ draw2 = "light erupting from an ancient building"
+* {girl.sunflower} [a sunflower designing zerotrust networking architecture]
+    ~ draw2 = "a sunflower designing zerotrust networking architecture"
+* ->
+- (draw3choices)
+* {bubbletea.iceless} [a trophy, reading "ICELESS"]
+    ~ draw3 = "a trophy that says ICELESS"
+* {bubbletea.gentle_with_bubble_tea} [a happy bubble tea lid ^__^]
+   ~ draw3 = "a happy bubble tea lid ^__^"
+* {bubbletea&&!bubbletea.gentle_with_bubble_tea} ["a bubble tea with a straw sticking out"]
+   ~ draw3 = "a bubble tea with a straw sticking out"
+* ->
+- 
+* {topic_change.parliament} [cultural parliament, fully intact]
+    ~ draw4 = "parliament house, daisies growing nearby"
+* ->
+- 
+* {topic_change.normalmode} [the two of you t-posing, going normal mode]
+    ~ draw5 = "two people t-posing"
+* ->
 -
+* {bookshelf.secret} [the three of hearts]
+    ~ draw6 = "a playing card, the 3 of hearts"
+* {bookshelf&&!bookshelf.secret} [eggs: a history]
+    ~ draw6 =  "a book with an egg on the cover"
+* ->
+- ->endscreen
+= endscreen
+you added to the community drawing!
+* [next]
+you drew...
+{draw1:{draw1}|} 
+{draw2:{draw2}|}
+{draw3:{draw3}|}
+{draw4:{draw4}|}
+{draw5:{draw5}|} 
+{draw6:{draw6}|}
+->DONE
+
+
+
+
+
+
+
+
+
+
+
 ->END
