@@ -32,12 +32,3 @@ function toggleFlow(){
     ActLikeTwine = !ActLikeTwine;
     console.log("ActLikeTwine = " + ActLikeTwine);
 }
-
-window.onload = function() {
-	if (HaveModal == false){
-	    var element = document.getElementById("myModal");
-		element.remove(element);
-		element = document.getElementById("myBtn");
-		element.remove(element);
-	}
-}

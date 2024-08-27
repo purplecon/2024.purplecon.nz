@@ -413,7 +413,7 @@ you contributed to the community drawing! you added:
 {draw5:{draw5}|} 
 {draw6:{draw6}|}
 
-<a href="/"><img class="outro" src="/static/purplecon_full_transp.png"/></a>     
+<a href="/"><img class="outro" src="/purplecon_full_transp.png"/></a>     
 
 <div class="back">
     <a id="rewind" href="/" title="play again">back</a>
