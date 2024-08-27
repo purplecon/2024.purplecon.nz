@@ -285,7 +285,7 @@ you go to the uh "books" section and uh select the "books" submenu listen i dunn
 // replace secret item with something we can actually hide in there on the day. more than one?
 - hmmmm <em>"judgement under uncertainty: heuristics and biases"</em>, <em>"encyclopedia of qr codes"</em>, <em>"eggs: a history"</em>.....
 * [next]
-looks like there's nothing interesting here
+- looks like there's nothing interesting here
 <- back(-> afterbooks)
 * [...unless?]
     oh could this be...? 
@@ -351,14 +351,17 @@ on the way out of the library, you see an enormous sheet of paper sprawled acros
 
 = draw
 //todo: show something between options to avoid no text with option
+VAR choicesum = 0
 VAR draw1 = false
 VAR draw2 = false
 VAR draw3 = false
 VAR draw4 = false
 VAR draw5 = false
 VAR draw6 = false
-- (draw1choices) you find the perfect spot for you to fit in the community drawing. you draw....
-*  {girl.glows} [your bracelet, glowing]
+- (draw1choices) you find the perfect spot to add to the community drawing. there is some space next to a drawing of a stargazing turtle.
+* next
+- you draw....
+*  {girl.glows} [your bracelet, glowing] 
     ~ draw1 = "a glowing bracelet"
 * {girl.glows_normal_amount} [your bracelet, glowing the normal amount]
     ~ draw1 = "a bracelet, glowing the normal amount"
@@ -373,13 +376,17 @@ VAR draw6 = false
 * {girl.bracelet_lie} [your bracelet, but try really hard to make it look like just a normal bracelet. basically just a circle]
     ~ draw1 = "a shakily-drawn circle"
 * ->
-- (draw2choices) 
+{- CHOICE_COUNT():
+    ~ choicesum++
+}
+{choicesum}
+- {girl.milleniumfestival||girl.sunflower:and then you draw...}
 * {girl.milleniumfestival} [both of you running into eachother at the same ancient ruins tonight, what a coincidence!!]
     ~ draw2 = "light erupting from an ancient building"
 * {girl.sunflower} [a sunflower designing zerotrust networking architecture]
     ~ draw2 = "a sunflower designing zerotrust networking architecture"
 * ->
-- (draw3choices)
+- (draw3choices) {bubbletea.iceless||bubbletea.gentle_with_bubble_tea||bubbletea&&!bubbletea.gentle_with_bubble_tea:and then you draw...}
 * {bubbletea.iceless} [a trophy, reading "ICELESS"]
     ~ draw3 = "a trophy that says ICELESS"
 * {bubbletea.gentle_with_bubble_tea} [a happy bubble tea lid ^__^]
@@ -387,15 +394,15 @@ VAR draw6 = false
 * {bubbletea&&!bubbletea.gentle_with_bubble_tea} ["a bubble tea with a straw sticking out"]
    ~ draw3 = "a bubble tea with a straw sticking out"
 * ->
-- 
+- {topic_change.parliament:and then you draw...}
 * {topic_change.parliament} [cultural parliament, fully intact]
     ~ draw4 = "parliament house, daisies growing nearby"
 * ->
-- 
+- {topic_change.normalmode:and then you draw...}
 * {topic_change.normalmode} [the two of you t-posing, going normal mode]
     ~ draw5 = "two people t-posing"
 * ->
--
+- {bookshelf:finally, you draw...}
 * {bookshelf.secret} [the three of hearts]
     ~ draw6 = "a playing card, the 3 of hearts"
 * {bookshelf&&!bookshelf.secret} [eggs: a history]
@@ -405,18 +412,18 @@ VAR draw6 = false
 = endscreen
 everyone's drawn something, but this one is yours
 * [next]
-you contributed to the community drawing! you added:
-{draw1:{draw1}|} 
+you contributed to the community drawing! your drawing is:
+{draw1:{draw1}|}
 {draw2:{draw2}|}
 {draw3:{draw3}|}
 {draw4:{draw4}|}
 {draw5:{draw5}|} 
 {draw6:{draw6}|}
-
+{choicesum}
 <a href="/"><img class="outro" src="/purplecon_full_transp.png"/></a>     
 
 <div class="back">
-    <a id="rewind" href="/" title="play again">back</a>
+    <a id="rewind" href="/" title="go back">back</a>
 </div>
 
 ->END
