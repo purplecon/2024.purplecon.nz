@@ -39,11 +39,6 @@ export default defineConfigWithTheme<ThemeConfig>({
     ,
     ['link', { rel: 'icon', href: './logo-64.png' }]],
 
-  // rewrites: {
-  //   // '/library/index.html': '/library'
-  //   '/library': '/library/index.html'
-  // },
-
   vue: {
     template: {
       compilerOptions: {
