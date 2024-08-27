@@ -39,7 +39,6 @@ export default defineConfigWithTheme<ThemeConfig>({
     ,
     ['link', { rel: 'icon', href: './logo-64.png' }]],
 
-
   vue: {
     template: {
       compilerOptions: {
