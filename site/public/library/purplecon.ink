@@ -307,18 +307,23 @@ you go to the uh "books" section and uh select the "books" submenu listen i dunn
                         oh wait
                         <- back(-> afterbooks)
                         * * * * * * * [YES???]
-                            oh actually just <em>behind</em> "eggs: a history" was a different book, "REAL_BOOK_NAME". you can have it i guess if you want?
+                            oh actually just <em>behind</em> "eggs: a history" was a different book, <em>REAL_BOOK_NAME</em>. you can have it i guess if you want?
                             * * * * * * * * [nah that's okay haha]->afterbooks
                             //* * * * * * * * {girl.milleniumfestival}[YES GIMME]
                             //    -> secretbracletbook
                             * * * * * * * * (secret) [YES GIMME]
-                                you open up "REAL_BOOK_NAME", and a playing card falls out. it's the three of hearts.
-                                 * * * * * * * * * [next]
+                                you open up <em>REAL_BOOK_NAME</em>, and a playing card falls out. it's the three of hearts.
+                                 * * * * * * * * * (poggers) [(whispering under breath) "poggers.."]
+                                 * * * * * * * * * ["i hope this is the True Ending"]
                                  - - - - - - - - - 
-                                    "whoa... i hope this is the True Ending"
-                                 * * * * * * * * * [next]
+                                    "!!! this must be the True Ending!"
+                                    {poggers == 0:"and hey, thank you for not saying poggers, that was really mature and cool of you"}
+                                 * * * * * * * * * [put the book back]
+                                 * * * * * * * * * {poggers == 0} ["poggers"]
+                                    "noooooooooo"
+                                 * * * * * * * * * * [next]
                                  - - - - - - - - - 
-                                    you put it back where you found it, for the next person, then gently pat the book closed.
+                                    you put <em>REAL_BOOK_NAME</em> back where you found it, for the next person, then gently pat the book closed.
                                     -> afterbooks
 - 
 * ["boringggg"]->afterbooks
@@ -376,10 +381,6 @@ VAR draw6 = false
 * {girl.bracelet_lie} [your bracelet, but try really hard to make it look like just a normal bracelet. basically just a circle]
     ~ draw1 = "a shakily-drawn circle"
 * ->
-{- CHOICE_COUNT():
-    ~ choicesum++
-}
-{choicesum}
 - {girl.milleniumfestival||girl.sunflower:and then you draw...}
 * {girl.milleniumfestival} [both of you running into eachother at the same ancient ruins tonight, what a coincidence!!]
     ~ draw2 = "light erupting from an ancient building"
@@ -405,6 +406,8 @@ VAR draw6 = false
 - {bookshelf:finally, you draw...}
 * {bookshelf.secret} [the three of hearts]
     ~ draw6 = "a playing card, the 3 of hearts"
+* {bookshelf.poggers} ["yourself pogging after finding the True Ending"]
+    ~ draw6 = "a crude sketch of your face, mouth wide open in excitement"
 * {bookshelf&&!bookshelf.secret} [eggs: a history]
     ~ draw6 =  "a book with an egg on the cover"
 * ->
@@ -419,7 +422,7 @@ you contributed to the community drawing! your drawing is:
 {draw4:{draw4}|}
 {draw5:{draw5}|} 
 {draw6:{draw6}|}
-{choicesum}
+
 <a href="/"><img class="outro" src="/purplecon_full_transp.png"/></a>     
 
 <div class="back">
