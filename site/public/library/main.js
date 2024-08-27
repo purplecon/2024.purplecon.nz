@@ -30,6 +30,7 @@
 
         var paragraphIndex = 0;
         var delay = 0;
+        var pageNumberElem = document.querySelector("span.page-number");
 
         // Generate story text - loop through available content
         while(story.canContinue) {
@@ -73,6 +74,7 @@
         }
 
         // Create HTML choices from ink choices
+
         story.currentChoices.forEach(function(choice) {
             
             // Create paragraph with anchor element
@@ -123,6 +125,8 @@
                 if(ActLikeTwine){
                     // from Ethan - deleting all the contents to make it more Twine like!
                     document.getElementById("story").innerHTML = "";
+                    // increase page number
+                    pageNumberElem.innerText = Number(pageNumberElem.innerText) + 1;
                 }
 
                 // Aaand loop

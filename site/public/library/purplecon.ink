@@ -27,7 +27,6 @@
 // this book is just called "geraldine"
 -> start
 
-
 === start
 // cryptic ref to later in the story?
 // first person question?
@@ -40,14 +39,17 @@
 // * [it's not what?]
 // - hypothetical.
 // * [wh-]
+
+
+
 -> library 
 
 // the link in the navbar you click to get here says....
 // "
 === library
 
-the sun is beaming through the skylights at the library.
-through the excited chatter, one voice breaks through.
+<span class="fancy title">T</span>he sun is beaming through the skylights at the library.
+* [next page]
 ->girl
 
 === girl
@@ -61,9 +63,9 @@ through the excited chatter, one voice breaks through.
         * * * (glows_normal_amount) ["no the normal amount"]
 - 
 {boring:she pauses.|"neat"}
-"do you think {glows:your bracelet that glows more than the normal amount|it} like, unlocks something? like, plot relevant?"
+"do you think {glows_normal_amount:your bracelet that glows the normal amount|it} like, unlocks something? like, plot relevant?"
 * (bracelet_is_normal) {boring}  ["it's just a bracelet haha"]
-* {!lore} [(lie) "it's just a bracelet haha"]
+* {boring} [(lie) "it's just a bracelet haha"]
   "oh, really? it looks kinda like..."
     she picks up your arm, and brings the bracelet closer. you notice discerning eyes behind her gold-rimmed glasses, but it's too late.
     * * [next]
@@ -78,7 +80,8 @@ through the excited chatter, one voice breaks through.
     // later it turns out this lie was true somehow
     * * * (bracelet_lie) [(go all in on the lie) "that's crazy haha"]
         "....huh. i guess i'll let you know if i see anywhere that looks plot-relevant to use it"
-        -> topic_change
+        - - - - 
+        * * * * [next] -> topic_change
 // * (bracelet_lie_caught) {lore}  [(lie: it is definitely not just a bracelet) "it's just a bracelet haha"]
 //     "it's just that you said you were found wearing it among the smoking wreckage of some ancient ruins when you were a baby"
 //     * * [(genuine) "sorry i was trying to seem mysterious"]
@@ -94,17 +97,26 @@ through the excited chatter, one voice breaks through.
         * * * "oh like... a lot?"
         {glows:"haha yeah"|"no the normal amount"}
         * * * * ["neat"]
+        ":))"
          -> milleniumfestival
     * * ["{girl_has_bracelet:actually }me and my colourful ragtag band of misfits were gonna go down to the ancient ruins tonight if you wanna come. it's the 1000 year anniversary of the day unspeakable evil was sealed away yeah"]
-    "ohhh i'd love to but i'm the last in my family line that can talk to plants and i have this family thing tonight where we're visiting the place where 1000 years ago, my ancestor, the first ever plant whisperer, first lost an argument to a sunflower."
-    * * * ["ohh neat. have fun at your family thing haha"]
-        "thanks i've never been there before. it's supposed to open up for the first time tonight. hope it's good"
-        * * * * ["hope it's good"]
-        * * * * (sunflower) ["what was the argument about actually"]
-            "zerotrust network architecture"
-            * * * * * ["ouch"]
-                "yeah the sunflower was cracked at networking"
-    - - - -> topic_change
+    
+        "ohhh i'd love to but i'm the last in my family line that can talk to plants and i have this family thing tonight where we're visiting <span class="important">the place</span> where 1000 years ago, my ancestor, the first ever plant whisperer, first lost an argument to a sunflower."
+        * * * (havefun) ["ohh neat. have fun at your family thing haha"]
+        * * * ["wait where is the place you're going exactly?"]
+        - - - 
+            "{havefun:thanks! }i've never been there before. it's supposed to open up for the first time tonight. hope it's good"
+
+            * * * * ["hope it's good"]
+            * * * * (sunflower) ["what was the argument about actually"]
+                "zerotrust network architecture"
+                * * * * * ["ouch"]
+                    "yeah the sunflower was cracked at networking"
+                - - - - -
+                * * * * * [next] -> topic_change
+    * * [change the subject]
+    - - ->topic_change
+        
 - "ooooh, maybe you just haven't found the right plot relevant place to use it yet!"
     * ["haha, yeah, maybe"]
 - -> topic_change
@@ -118,26 +130,36 @@ you start to say something. {topic_change:"let's..."|"hey maybe we should..."}
 * (parliament) ["blow up cultural parliament"]
     "what? oh you mean like <em>cultural</em> parliament, like a cultural, immaterial thing that does not strictly imply or endorse anything illegal"
     * * ["yeah exactly"]
+        ...
         * * * ["of course"]
+            ...
             * * * * ["that kinda thing"]
     - - "maybe later? if it feels like we need to, i mean. things seem to be going pretty well lately already"
     * * ["so true actually"]
-       ->topic_change
-* ["get out of here{girl.milleniumfestival:, i should get to the ancient ruins}"]
+    * * [(disappointed) "so true actually"]
+    - - 
+        ->topic_change
+* ["get out of here{girl.milleniumfestival:, i should get to the ancient ruins|, it's getting late}"]
     "ohhh yeah {girl.milleniumfestival:i should get to my plant thing|it is getting late}"
     - - (leavechoices)
     * * {girl.milleniumfestival} ["yeah your plant thing"]
         "yeah my plant thing"
         -> leavechoices
     * * {!girl.bracelet_is_normal} ["haha yeah, and i do NOT wanna be late, i got a good feeling about being at the ancient ruins right on midnight haha"]
-    * * (normalmode) {girl.bracelet_is_normal} ["well yes i suppose it is getting late. this is just a normal bracelet i'm wearing with nothing interesting about it so. i guess time to go normal mode and go home."]
+    * *  {girl.bracelet_is_normal} ["well yes i suppose it is getting late. this is just a normal bracelet i'm wearing with nothing interesting about it so. i guess time to go normal mode and go home."]
         "normal mode"
         * * * [next]
-        - - - she is t-posing.
+            she is t-posing.
+        * * * * (normalmode) [t-pose as well]
+            you are both t-posing
+        * * * * [don't]
+            you just stand there like a clown while she t-poses, face completely emotionless
+            "haha, normal mode"
+        - - - 
         * * * [next]
         -> ending
     - - -> ending
-* [actually, don't say anything]
+* {topic_change <=1} [{actually, don't say anything|don't say anything this time}]
     "? {topic_change:let's|maybe we should} what?"
     * * {!parliament} ["oh i was going to say all this stuff about parliament. like revolutionary stuff?"]
         "but you didn't?"
@@ -147,6 +169,10 @@ you start to say something. {topic_change:"let's..."|"hey maybe we should..."}
     "huh, okay. do you wanna go look at books?"
     * * ["oh heck yeah"]
         -> bookshelf
+* {topic_change > 1} ["actually, what do you wanna do?"]
+    "oooh, books, definitely books. do you wanna go look at the books? we are in a library and there are books and we could look at them.
+    * * ["oh heck yeah"]
+    ->bookshelf
 ->DONE
 
 === bubbletea
@@ -195,7 +221,7 @@ ah, the bubble tea stand. a reliable staple at any library.
 * ["do you think this like, should set our expectations for what to expect from any other libraries we go to in the future?"]
 - "hmmmm, i don't think so. i don't think other um libraries would really be able to guarantee they'd have these exact flavours or toppings. it's a lot of work organising bubble tea at a conference"
 * [look directly at the camera]
-- 
+- ...
 * ["you mean library?"]
 -    "yeah that's what i said"
 * ["hey look, i think our bubble teas are ready"]
@@ -210,7 +236,7 @@ you gently pick up the bubble tea, patting it gingerly to make sure it feels com
     pop!
     -> tea
     * * [...]
-        you hesitate
+        you hesitate...
         * * * [stab the bubble tea lid with the straw]
         pop!
         -> tea
@@ -238,13 +264,26 @@ yummo, the tea is {lowsugar|nosugar:not too sweet and very tasty|sweet and tasty
 === bookshelf 
 you go to the uh "books" section and uh select the "books" submenu listen i dunno
 * [next]
-- "what kinda books do you wanna look for?"
-* ["hmmm i dunno, just anything that seems interesting?"]
--
-"huh, well. let's see what's on this shelf"
+- "ooooh they have a "fonts" section. i love fonts."
+* ["omg me too"]
+    - - (fontgang) "FONT gang"
+    * *  [(solemnly) "font gang"]
+    "hmmmm what else is around here..."
+    * * * [next]
+* ["i am ambivalent about fonts"]
+    "oh me too. i was saying that like, ironically."
+    * * ["oh i was being ironic too. i actually love fonts sincerely"]
+    "okay great because i was saying the previous thing ironically too"
+    ->fontgang
+* [do not engage with this fontposting]
+- there's a section nearby dewey-decimal coded as 641.5. someone has stuck a post-it note on top of the number that just says "BOOKS"
+* ["hey look at this they have books here"]
+- "no way"
+* [see what's in the "BOOKS" section]
+* [go back] ->topic_change
 // replace eggs a history with a real book, hide something in that real book in the library
 // replace secret item with something we can actually hide in there on the day. more than one?
-hmmmm <em>"judgement under uncertainty: heuristics and biases"</em>, <em>"encyclopedia of qr codes"</em>, <em>"eggs: a history"</em>.....
+- hmmmm <em>"judgement under uncertainty: heuristics and biases"</em>, <em>"encyclopedia of qr codes"</em>, <em>"eggs: a history"</em>.....
 * [next]
 looks like there's nothing interesting here
 <- back(-> afterbooks)
@@ -274,8 +313,13 @@ looks like there's nothing interesting here
                             //    -> secretbracletbook
                             * * * * * * * * (secret) [YES GIMME]
                                 you open up "REAL_BOOK_NAME", and a playing card falls out. it's the three of hearts.
-                                you put it back where you found it, for the next person, then gently pat the book closed.
-                                -> afterbooks
+                                 * * * * * * * * * [next]
+                                 - - - - - - - - - 
+                                    "whoa... i hope this is the True Ending"
+                                 * * * * * * * * * [next]
+                                 - - - - - - - - - 
+                                    you put it back where you found it, for the next person, then gently pat the book closed.
+                                    -> afterbooks
 - 
 * ["boringggg"]->afterbooks
 
@@ -306,13 +350,14 @@ on the way out of the library, you see an enormous sheet of paper sprawled acros
 -> draw
 
 = draw
+//todo: show something between options to avoid no text with option
 VAR draw1 = false
 VAR draw2 = false
 VAR draw3 = false
 VAR draw4 = false
 VAR draw5 = false
 VAR draw6 = false
-- (draw1choices) ohhhh it is time to draw some stuff. you draw....
+- (draw1choices) you find the perfect spot for you to fit in the community drawing. you draw....
 *  {girl.glows} [your bracelet, glowing]
     ~ draw1 = "a glowing bracelet"
 * {girl.glows_normal_amount} [your bracelet, glowing the normal amount]
@@ -358,16 +403,23 @@ VAR draw6 = false
 * ->
 - ->endscreen
 = endscreen
-you added to the community drawing!
+everyone's drawn something, but this one is yours
 * [next]
-you drew...
+you contributed to the community drawing! you added:
 {draw1:{draw1}|} 
 {draw2:{draw2}|}
 {draw3:{draw3}|}
 {draw4:{draw4}|}
 {draw5:{draw5}|} 
 {draw6:{draw6}|}
-->DONE
+
+<a href="/"><img class="outro" src="/static/purplecon_full_transp.png"/></a>     
+
+<div class="back">
+    <a id="rewind" href="/" title="play again">back</a>
+</div>
+
+->END
 
 
 
