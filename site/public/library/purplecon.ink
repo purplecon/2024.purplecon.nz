@@ -124,7 +124,7 @@
 === topic_change
 you start to say something. {topic_change:"let's..."|"hey maybe we should..."}
 - (hub)
-* ["get bubble tea"] 
+* {!bubbletea} ["get bubble tea"] 
     "oh heck yeah"
     -> bubbletea
 * (parliament) ["blow up cultural parliament"]
@@ -159,7 +159,7 @@ you start to say something. {topic_change:"let's..."|"hey maybe we should..."}
         * * * [next]
         -> ending
     - - -> ending
-* {topic_change <=1} [{actually, don't say anything|don't say anything this time}]
+* {topic_change <=1&&!bookshelf} [{actually, don't say anything|don't say anything this time}]
     "? {topic_change:let's|maybe we should} what?"
     * * {!parliament} ["oh i was going to say all this stuff about parliament. like revolutionary stuff?"]
         "but you didn't?"
@@ -169,7 +169,7 @@ you start to say something. {topic_change:"let's..."|"hey maybe we should..."}
     "huh, okay. do you wanna go look at books?"
     * * ["oh heck yeah"]
         -> bookshelf
-* {topic_change > 1} ["actually, what do you wanna do?"]
+* {topic_change > 1&&!bookshelf} ["actually, what do you wanna do?"]
     "oooh, books, definitely books. do you wanna go look at the books? we are in a library and there are books and we could look at them.
     * * ["oh heck yeah"]
     ->bookshelf
