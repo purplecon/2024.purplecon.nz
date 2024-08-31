@@ -385,7 +385,8 @@ p.choice {
     margin-bottom: 10px;
     width: 100%;
     display: list-item;
-    list-style: circle;
+    /* list-style: "➜"; */
+    list-style-type: "➜";
 
 }
 
