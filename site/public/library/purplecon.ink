@@ -139,7 +139,7 @@ you start to say something. {topic_change:"let's..."|"hey maybe we should..."}
     * * [(disappointed) "so true actually"]
     - - 
         ->topic_change
-* [{"well i suppose we could leave, but it's a bit early"|"get out of here, i've kinda seen everything i want to see}"]
+* [{"well i suppose we could leave, but it's a bit early"|"get out of here, i've kinda seen everything i want to see"}]
     "ohhh yeah {girl.milleniumfestival:i should get to my plant thing|it is getting late}"
     - - (leavechoices)
     * * {girl.milleniumfestival} ["yeah your plant thing"]
@@ -170,7 +170,7 @@ you start to say something. {topic_change:"let's..."|"hey maybe we should..."}
     * * ["oh heck yeah"]
         -> bookshelf
 * {topic_change > 1&&!bookshelf} ["actually, what do you wanna do?"]
-    "oooh, books, definitely books. do you wanna go look at the books? we are in a library and there are books and we could look at them.
+    "oooh, books, definitely books. do you wanna go look at the books? we are in a library and there are books and we could look at them"
     * * ["oh heck yeah"]
     ->bookshelf
 ->DONE
@@ -366,8 +366,8 @@ VAR draw6 = false
 
 - (draw1choices) you look for the perfect spot to add to the community drawing.
 
-* draw next to a drawing of a stargazing turtle
-* draw next to a drawing of leaves sprouting from a bubble tea straw
+* [draw next to a drawing of a stargazing turtle]
+* [draw next to a drawing of leaves sprouting from a bubble tea straw]
 - you draw....
 *  {girl.glows} [your bracelet, glowing] 
     ~ draw1 = "a glowing bracelet"
@@ -427,7 +427,7 @@ you contributed to the community drawing! your drawing is:
 {draw5:{draw5}|} 
 {draw6:{draw6}|}
 
-~ choicesum = choicesum + INT(girl.glows) + INT(girl.glows_normal_amount) + INT(girl.boring&&!girl.bracelet_lie) + INT(girl.girl_has_bracelet) + INT(girl.bracelet_lie) + INT(girl.milleniumfestival||girl.sunflower) + INT(bubbletea.iceless) + INT(bubbletea.gentle_with_bubble_tea||bubbletea&&!bubbletea.gentle_with_bubble_tea) + INT(topic_change.parliament) + INT(topic_change.normalmode) + INT(bookshelf.secret) + INT(bookshelf.poggers) + INT(bookshelf&&!bookshelf.secret)
+~ choicesum = choicesum + INT(girl.glows) + INT(girl.glows_normal_amount) + INT(girl.boring&&!girl.bracelet_lie) + INT(girl.girl_has_bracelet) + INT(girl.bracelet_lie) + INT(girl.milleniumfestival||girl.sunflower) + INT(bubbletea.iceless) + INT(bubbletea.gentle_with_bubble_tea) + INT(bubbletea&&!bubbletea.gentle_with_bubble_tea) + INT(topic_change.parliament) + INT(topic_change.normalmode) + INT(bookshelf.secret) + INT(bookshelf.poggers) + INT(bookshelf&&!bookshelf.secret)
 
 <span class="stats">you saw {choicesum} out of a possible 15 drawings</span>
 <a href="/"><img class="outro" src="/purplecon_full_transp.png"/></a>     
