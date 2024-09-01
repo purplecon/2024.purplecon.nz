@@ -88,8 +88,8 @@
 //     * * [(flirting) "sorry i was trying to seem mysterious"]
 //     ->TODO
         
-        
-* {lore} ["of course! maybe like it fits in a hole that's the same shape at the bottom of the ruins in my hometown that only open once every 1000 years"]
+* {lore} ["maybe it does something plot relevant yeah. plausibly."]
+* {lore} ["maybe like it fits in a hole that's the same shape at the bottom of the ruins in my hometown that only open once every 1000 years"]
     she's nodding thoughtfully. "definitely anime style..."
     - - (milleniumfestival) 
     * * {lore} ["sorry, this probably doesn't make a lot of sense unless you're into the same weird niche japanese games as i am"]
@@ -124,10 +124,10 @@
 === topic_change
 you start to say something. {topic_change:"let's..."|"hey maybe we should..."}
 - (hub)
-* {!bubbletea} ["get bubble tea"] 
+* {!bubbletea} [{"get bubble tea"|"get bubble tea before it runs out"|"get bubble tea, i'm thirsty for that good leaf water"}] 
     "oh heck yeah"
     -> bubbletea
-* (parliament) ["blow up cultural parliament"]
+* (parliament) [{"blow up cultural parliament"|"blow up cultural parliament?"}]
     "what? oh you mean like <em>cultural</em> parliament, like a cultural, immaterial thing that does not strictly imply or endorse anything illegal"
     * * ["yeah exactly"]
         ...
@@ -139,7 +139,7 @@ you start to say something. {topic_change:"let's..."|"hey maybe we should..."}
     * * [(disappointed) "so true actually"]
     - - 
         ->topic_change
-* ["get out of here{girl.milleniumfestival:, i should get to the ancient ruins|, it's getting late}"]
+* [{"well i suppose we could leave, but it's a bit early"|"get out of here, i've kinda seen everything i want to see}"]
     "ohhh yeah {girl.milleniumfestival:i should get to my plant thing|it is getting late}"
     - - (leavechoices)
     * * {girl.milleniumfestival} ["yeah your plant thing"]
@@ -246,7 +246,7 @@ you gently pick up the bubble tea, patting it gingerly to make sure it feels com
             * * * * [much better :)]
             -> tea
 - (tea)
-yummo, the tea is {lowsugar|nosugar:not too sweet and very tasty|sweet and tasty}, perfect nourishment for growing teens.
+yummo, the tea is {(lowsugar||nosugar):not too sweet and very tasty|sweet and tasty}, perfect nourishment for growing teens.
 * ["this is the best library ever"]
 * (mouthfull) {!notopping} [(mouth full of toppings) "thish ish thuh besht libarby evuh"]
 - "heck yeah it is"
@@ -307,12 +307,12 @@ you go to the uh "books" section and uh select the "books" submenu listen i dunn
                         oh wait
                         <- back(-> afterbooks)
                         * * * * * * * [YES???]
-                            oh actually just <em>behind</em> "eggs: a history" was a different book, <em>REAL_BOOK_NAME</em>. you can have it i guess if you want?
+                            oh actually just <em>behind</em> "eggs: a history" was a different book, <em>Egg & spoon: an illustrated cookbook</em>. you can have it i guess if you want?
                             * * * * * * * * [nah that's okay haha]->afterbooks
                             //* * * * * * * * {girl.milleniumfestival}[YES GIMME]
                             //    -> secretbracletbook
                             * * * * * * * * (secret) [YES GIMME]
-                                you open up <em>REAL_BOOK_NAME</em>, and a playing card falls out. it's the three of hearts.
+                                you open up <em>Egg & spoon: an illustrated cookbook</em>, and a playing card falls out. it's the three of hearts.
                                  * * * * * * * * * (poggers) [(whispering under breath) "poggers.."]
                                  * * * * * * * * * ["i hope this is the True Ending"]
                                  - - - - - - - - - 
@@ -323,7 +323,7 @@ you go to the uh "books" section and uh select the "books" submenu listen i dunn
                                     "noooooooooo"
                                  * * * * * * * * * * [next]
                                  - - - - - - - - - 
-                                    you put <em>REAL_BOOK_NAME</em> back where you found it, for the next person, then gently pat the book closed.
+                                    you put <em>Egg & spoon: an illustrated cookbook</em> back where you found it, for the next person, then gently pat the book closed.
                                     -> afterbooks
 - 
 * ["boringggg"]->afterbooks
@@ -363,14 +363,17 @@ VAR draw3 = false
 VAR draw4 = false
 VAR draw5 = false
 VAR draw6 = false
-- (draw1choices) you find the perfect spot to add to the community drawing. there is some space next to a drawing of a stargazing turtle.
-* next
+
+- (draw1choices) you look for the perfect spot to add to the community drawing.
+
+* draw next to a drawing of a stargazing turtle
+* draw next to a drawing of leaves sprouting from a bubble tea straw
 - you draw....
 *  {girl.glows} [your bracelet, glowing] 
     ~ draw1 = "a glowing bracelet"
 * {girl.glows_normal_amount} [your bracelet, glowing the normal amount]
     ~ draw1 = "a bracelet, glowing the normal amount"
-* {girl.boring} [your regular, normal bracelet. it's just a bracelet. you are basically just going to draw a circle and you are okay with that]
+* {girl.boring&&!girl.bracelet_lie} [your regular, normal bracelet. it's just a bracelet. you are basically just going to draw a circle and you are okay with that]
     ~ draw1 = "a plain ol' circle"
 * {girl.girl_has_bracelet} [both of your bracelets, linked together]
     {girl.glows: 
@@ -380,8 +383,9 @@ VAR draw6 = false
     }
 * {girl.bracelet_lie} [your bracelet, but try really hard to make it look like just a normal bracelet. basically just a circle]
     ~ draw1 = "a shakily-drawn circle"
+
 * ->
-- {girl.milleniumfestival||girl.sunflower:and then you draw...}
+- {girl.milleniumfestival||girl.sunflower:and then you draw...} 
 * {girl.milleniumfestival} [both of you running into eachother at the same ancient ruins tonight, what a coincidence!!]
     ~ draw2 = "light erupting from an ancient building"
 * {girl.sunflower} [a sunflower designing zerotrust networking architecture]
@@ -423,6 +427,9 @@ you contributed to the community drawing! your drawing is:
 {draw5:{draw5}|} 
 {draw6:{draw6}|}
 
+~ choicesum = choicesum + INT(girl.glows) + INT(girl.glows_normal_amount) + INT(girl.boring&&!girl.bracelet_lie) + INT(girl.girl_has_bracelet) + INT(girl.bracelet_lie) + INT(girl.milleniumfestival||girl.sunflower) + INT(bubbletea.iceless) + INT(bubbletea.gentle_with_bubble_tea||bubbletea&&!bubbletea.gentle_with_bubble_tea) + INT(topic_change.parliament) + INT(topic_change.normalmode) + INT(bookshelf.secret) + INT(bookshelf.poggers) + INT(bookshelf&&!bookshelf.secret)
+
+<span class="stats">you saw {choicesum} out of a possible 15 drawings</span>
 <a href="/"><img class="outro" src="/purplecon_full_transp.png"/></a>     
 
 <div class="back">
