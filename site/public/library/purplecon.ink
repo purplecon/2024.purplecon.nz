@@ -283,7 +283,7 @@ you go to the uh "books" section and uh select the "books" submenu listen i dunn
 * [go back] ->topic_change
 // replace eggs a history with a real book, hide something in that real book in the library
 // replace secret item with something we can actually hide in there on the day. more than one?
-- hmmmm <em>"judgement under uncertainty: heuristics and biases"</em>, <em>"encyclopedia of qr codes"</em>, <em>"eggs: a history"</em>.....
+- (eggs_a_history) hmmmm <em>"judgement under uncertainty: heuristics and biases"</em>, <em>"encyclopedia of qr codes"</em>, <em>"eggs: a history"</em>.....
 * [next]
 - looks like there's nothing interesting here
 <- back(-> afterbooks)
@@ -412,7 +412,7 @@ VAR draw6 = false
     ~ draw6 = "a playing card, the 3 of hearts"
 * {bookshelf.poggers} ["yourself pogging after finding the True Ending"]
     ~ draw6 = "a crude sketch of your face, mouth wide open in excitement"
-* {bookshelf&&!bookshelf.secret} [eggs: a history]
+* {bookshelf.eggs_a_history} [eggs: a history]
     ~ draw6 =  "a book with an egg on the cover"
 * ->
 - ->endscreen
@@ -427,7 +427,7 @@ you contributed to the community drawing! your drawing is:
 {draw5:{draw5}|} 
 {draw6:{draw6}|}
 
-~ choicesum = choicesum + INT(girl.glows) + INT(girl.glows_normal_amount) + INT(girl.boring&&!girl.bracelet_lie) + INT(girl.girl_has_bracelet) + INT(girl.bracelet_lie) + INT(girl.milleniumfestival||girl.sunflower) + INT(bubbletea.iceless) + INT(bubbletea.gentle_with_bubble_tea) + INT(bubbletea&&!bubbletea.gentle_with_bubble_tea) + INT(topic_change.parliament) + INT(topic_change.normalmode) + INT(bookshelf.secret) + INT(bookshelf.poggers) + INT(bookshelf&&!bookshelf.secret)
+~ choicesum = choicesum + INT(girl.glows) + INT(girl.glows_normal_amount) + INT(girl.boring&&!girl.bracelet_lie) + INT(girl.girl_has_bracelet) + INT(girl.bracelet_lie) + INT(girl.milleniumfestival) + INT(girl.sunflower) + INT(bubbletea.iceless) + INT(bubbletea.gentle_with_bubble_tea) + INT(bubbletea&&!bubbletea.gentle_with_bubble_tea) + INT(topic_change.parliament) + INT(topic_change.normalmode) + INT(bookshelf.secret) + INT(bookshelf.poggers) + INT(bookshelf&&!bookshelf.secret)
 
 <span class="stats">you saw {choicesum} out of a possible 15 drawings</span>
 <a href="/"><img class="outro" src="/purplecon_full_transp.png"/></a>     
