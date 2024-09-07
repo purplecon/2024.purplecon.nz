@@ -410,7 +410,7 @@ VAR draw6 = false
 - {bookshelf:finally, you draw...}
 * {bookshelf.secret} [the three of hearts]
     ~ draw6 = "a playing card, the 3 of hearts"
-* {bookshelf.poggers} ["yourself pogging after finding the True Ending"]
+* {bookshelf.poggers} [yourself pogging after finding the True Ending]
     ~ draw6 = "a crude sketch of your face, mouth wide open in excitement"
 * {bookshelf.eggs_a_history} [eggs: a history]
     ~ draw6 =  "a book with an egg on the cover"
@@ -427,7 +427,7 @@ you contributed to the community drawing! your drawing is:
 {draw5:{draw5}|} 
 {draw6:{draw6}|}
 
-~ choicesum = choicesum + INT(girl.glows) + INT(girl.glows_normal_amount) + INT(girl.boring&&!girl.bracelet_lie) + INT(girl.girl_has_bracelet) + INT(girl.bracelet_lie) + INT(girl.milleniumfestival) + INT(girl.sunflower) + INT(bubbletea.iceless) + INT(bubbletea.gentle_with_bubble_tea) + INT(bubbletea&&!bubbletea.gentle_with_bubble_tea) + INT(topic_change.parliament) + INT(topic_change.normalmode) + INT(bookshelf.secret) + INT(bookshelf.poggers) + INT(bookshelf&&!bookshelf.secret)
+~ choicesum = choicesum + INT(girl.glows) + INT(girl.glows_normal_amount) + INT(girl.boring&&!girl.bracelet_lie) + INT(girl.girl_has_bracelet) + INT(girl.bracelet_lie) + INT(girl.milleniumfestival) + INT(girl.sunflower) + INT(bubbletea.iceless) + INT(bubbletea.gentle_with_bubble_tea) + INT(bubbletea&&!bubbletea.gentle_with_bubble_tea) + INT(topic_change.parliament) + INT(topic_change.normalmode) + INT(topic_change.normalmode) + INT(bookshelf.poggers) + INT(bookshelf.secret) + INT(bookshelf.eggs_a_history)
 
 <span class="stats">you saw {choicesum} out of a possible 15 drawings</span>
 <a href="/"><img class="outro" src="/purplecon_full_transp.png"/></a>     
