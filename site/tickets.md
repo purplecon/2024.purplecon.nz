@@ -39,6 +39,16 @@ are for people who identify as being from a marginalised* group in tech
 are for anyone
 
 
+## price of tickets
+
+the standard ticket price is **AUD 150**.
+
+if you are paying your own way use promo code `purple` at checkout for a **AUD 75** ticket.
+
+or if you are a student give the `imastudent` promo code a try for a **AUD 25** ticket.
+
+please [contact us](/#contact-us) if you want to attend but would have difficulty affording it.
+
 <section>
       <p-books></p-books>
 </section>

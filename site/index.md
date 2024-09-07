@@ -68,7 +68,7 @@ layout: home
       we want <em>everyone</em> to feel safe here. <a href="/conduct">here's the rules.</a>
       </div>
 </section>
-<section class="top">
+<section id="contact-us" class="top">
       <p-books></p-books>
       <header class="mid">
       <h1>who <em>are</em> you?</h1>
