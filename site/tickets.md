@@ -10,7 +10,9 @@
     <div class="heading">
       <h1>tickets</h1>
       <ul class="no-dots">
-        <li><strong>tickets release: </strong>~September </li>
+        <li><strong>wave 1 release: </strong>september 8th, 7am aest / 9am nzst </li>
+        <li><strong>wave 2 release: </strong>september 8th, 6pm aest / 8pm nzst </li>
+        <li><strong><a target="_blank" href="https://www.eventbrite.co.nz/e/purplecon-2024-tickets-1004911195437">~~get your tickets here~~</a></strong></li>
       </ul>
     </div>
   </header>
@@ -38,6 +40,16 @@ are for people who identify as being from a marginalised* group in tech
 
 are for anyone
 
+
+## price of tickets
+
+the standard ticket price is **AUD 150**.
+
+if you are paying your own way use promo code `purple` at checkout for a **AUD 75** ticket.
+
+or if you are a student give the `imastudent` promo code a try for a **AUD 25** ticket.
+
+please [contact us](/#contact-us) if you want to attend but would have difficulty doing so.
 
 <section>
       <p-books></p-books>
