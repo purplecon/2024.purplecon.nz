@@ -1,0 +1,341 @@
+"Instructions for talk rating:
+Score each talk out of 5. No need to write ""5/5"", just write ""5"".
+Format of your cell is:
+<score / 5> (1 character only)
+<optional comments>",,,,Accepted talks,9,Minutes,180,,,,,,,,,,,,,,,,,
+Timestamp,Ryan,Anton,Jeremy,Alex,Nicky,average score (/5),Feedback,Accepting? (Y/N),Notified?,Can present?,Email address,talk title,talk abstract,favourite snack,what would you would like to be called?,your handle (if it's different from above),dox urself and tell us your story,hypertext travel links / your website / social medias,"talk description, including: an overview, structure, and a description of any tooling, flowcharts, spreadsheets, or mixtapes you plan to release",how long is your talk?,plz help with,The Great Archive,have you read our code of conduct? do you understand it? do you agree to abide by it?,free text input
+02/09/2024 00:21:46,"0
+about a hack","Conflict of interest, can't vote. But it is an interesting POV as it's from a software engineer who briefly enters the world of infosec",,2,"3.5
+Nice story - IF they can focus on the storytelling and journey",1.67,"Topic is good, but we want to help you construct a story out of it
+
+We like that it's an entry-level talk
+
+We like that it's a POV from Software Engineers, who we often tell what to do. But what do they think?",Y,Y,,adam1213+purplecon@gmail.com,Data breaches: your casual end of year security problem,This talk is aimed at those new to security. Every year (financial year) organisations send out tax summaries. Undesirably some of these are vulnerable to Insecure Direct Object Reference. This talks provides an intro to this area of security and how to avoid it,normal snack,Adam Black,,A software engineer with a passion for security ,,Examples of a number of companies (which won't be named) having insecure Direct Object Reference. Best practices to avoid this. Some discussion of how companies respond to reports of issues,15 minutes,a mentor for my talk,I will email some kind of document about my talk AND my talk slides for The Great Archive before november 9,"yes, this link is a close friend and trusted ally -> https://purplecon.org/conduct",Tell Anton I say hi (he probably would be in a position that would make him unable to judge my entry)
+18/07/2024 21:56:55,4,"5
+(a) Painfully relevant topic
+(b) I don't know how good the speaker is
+(c) Hints at using an interesting metaphor",,"3
+points for calling out a bad thing (misunderstandings about metrics) but eh, metrics as a topic? not sure how relevant that is to our audience",3.5,2.75,,Y,Y,Y,icd@wan0.net,How can security metrics learn a lesson from bushfire ratings?,"Metrics are an often misunderstood valuable tool in conducting defensive cyber security operations. From understanding the workload of your staff, to understanding the effectiveness of your controls, being able to have quantitative evidence to support your business and operational decisions is critical.
+
+This talk will discuss some of the ways to generate relevant and effective metrics for your cyber security function, taking lessons from recent changes in metrics for bushfire ratings, the Essential 8, as well as other fields. We'll also talk about metric fatigue and the crying wolf problem - how the wrong metrics can have a significantly detrimental effect on your cyber efficacy.",normal snack,Iain,icd,"Iain is the Full Spectrum Cyber Practice Lead for Leidos Australia, providing oversight and support to all of Leidos' Australian programs for cyber security including its military platform work. Iain has previously worked as a Cyber Research Engineer and an Assistant Director for Cyber Threat Intelligence within the Department of Defence. Iain is one of the founders of ComfyCon AU, a virtual conference founded in response to the cancellation of cyber security conferences due to the COVID-19 pandemic.",wan0.net,"So the idea behind this is basically, that the wrong metrics tire people out, and they don't follow them.
+
+If you say everything is a high priority, nothing gets done. If you say everything is catastrophic, nothing gets done.
+
+So this talk is, what are some metrics that I can use that are useful to actually make a decision. In my career I've had to deal with people talking about number of alerts and number of incidents as useful metrics, and they're really not. So it's all of this put together.",20 minutes,,I will email some kind of document about my talk AND my talk slides for The Great Archive before november 9,"Yes, this is a purple link -> https://purplecon.org/conduct",
+21/08/2024 15:01:36,"4
+sgtm, swap what is atlassian / jira with who they are because it's more important to the plot","5
+(a) Perfectly aligns with ""crime for teens"" slogan
+(b) First time presenter
+(c) Even clarifies ""This talk will not be overly technical""",,"5
+
+it's actually an intro level talk, amazing
+will encourage people to feel like they can do it?
+","5
+Please a bit less repping the company and more repping yourself.",3.75,"* Don't make it about Atlassian specifically.
+* we want it to be more of a story",Y,Y,,giulianadbe@gmail.com,It’s easier to Pirate with an Atlas…sian,"Have you ever wondered exactly how people pirate software? What are the tools and techniques they used? At Atlassian, every new penetration tester writes a crack for Jira during their first couple of weeks. Why? Because those same tools and techniques used to pirate software are critical skills needed to perform effective security tests & research. In this talk, I’m going to teach some of those techniques to you too! We’ll dive into Jira DC together with a hacker mindset, reverse engineering the logic behind its license check and exploring how we can modify and debug it.",basil leafs,Giuliana,,"Hi! I’m Giuliana, a Security Testing engineer at Atlassian (or pentester, cartoon character, or whatever else suits you). Aside from poking at things on my laptop until it does something it’s not supposed to, I like everything fashion, food and friends, so come say hi! ",https://www.linkedin.com/in/giuliana-de-bellis/,"I want my talk to show people how having a hacker mindset and being able to reverse engineer something can be a useful skill when testing a system for vulnerabilities. I want to show security folks that they don't need to be scared of doing things the white-box way instead of the black-box way. 
+
+Rough breakdown (I am not sure I have the ordering correct here, but this is most of what I'd like to include):
+1. What’s Atlassian & Jira, what does my team do (2min)
+2. Why do we do this at Atlassian, and why am I teaching you? (5min)
+    1. We conduct white-box security tests, code-assisted
+    2. White-box vs black-box pen-testing benefits
+3. How to identify where features of a product are in code (using a debugger) (5min)
+    1. Demo of Jira DC using a debugger to edit the license class to edit the verify() method to return True (5min)
+4. How does this help you become better at finding vulns? (3min)
+
+I don't want my talk to be overly technical. The demo should just be a quick example that encourages people to come and shows them how simple what I am talking about actually is. I will not decompile Jira DC code, I want to abstract this away since it doesn't really contribute to the goal of my talk and is do-able with free online tools easily. I will not demonstrate how to write a keygen for the crack. The talk will only focus on modifying code; the point is to encourage people to think about the system they are testing.",20 minutes,a mentor for my talk,I will email some kind of document about my talk AND my talk slides for The Great Archive before november 9,"Yes, this is a purple link -> https://purplecon.org/conduct","purplecon has been the first con I have gotten enough confidence to submit a talk for, thank you all for making it not scary and very wholesome. I look forward to eating basil leafs with you in November, preferably in some pasta, but I don't discriminate here."
+31/08/2024 08:20:38,5,"5
+(a) I usually don't find ""current events"" talks interesting, but objectively it's probably a good talk.
+(a) My hype level has increased.
+(b) Speaker is VERY qualified.",,"5
+
+extremely good speaker
+the cfp is already a narrative
+i think this will inspire people
+slight risk that she won't be able to fly to Sydney for the conference, though",5,3.75,,Y,Y,,serenadantingchen@gmail.com,🙋❓🙋 why❓🤔 chrome 🌐 🙅🚫 removed 🚫🙅 the 🔒 lock 🫨 icon 🤷🤷,"if you've been particularly eagle-eyed, you might've noticed that within the past year or so, the lock icon disappeared from Chrome's address bar. this is the story of why and how that happened, and maybe it's secretly a story about HTTPS and the web ecosystem and the sisyphean task of securing the web as a whole...... 
+
+it's just an icon, michael. how hard could it be to remove?","blue, but fizzy",serena chen,sereeena,"serena is an ex-physicist and mathematician, once teen magazine editor-in-chief, foosball enthusiast and hacker at heart. for her day job she's cyber aesthetics doctor at google chrome, leading UX for chrome security.",https://serena.nz,"Things I want to cover (probably not in this exact order):
+- Why we needed to remove the lock icon. Research, evidence, etc
+- How we did this. The people we needed to convince. The fear and uncertainty that we had to get people to overcome. Why other browsers will probably not follow suit even though they have been saying it's the right thing to do for years
+- The general story of trying to get the entire web ecosystem to use HTTPS. Incremental change, getting people to care about security, never giving up even when things feel impossible uwu heart emoji sparkle emoji",20 minutes,writing a serious-business convincing document for my management chain so they agree to send me to Sydney on short notice for this,I will email some kind of document about my talk AND my talk slides for The Great Archive before november 9,"yes, this link is a close friend and trusted ally -> https://purplecon.org/conduct",omg the last question made me kinda want to select no because the thought of asking u to print out my application just so you could slam dunk it into the TRASH CAN was just too funny 
+01/09/2024 20:10:19,"4
+better flavour match","5
+(a) Like with the other OAuth talk, I think people are super interested in this
+(b) Humorous talk introduction here, suggests it will be a good presentation
+
+Q: Is it bad to have 2-speaker talks?",,"4
+
+okay if we put this one before the other, more complicated oauth talk, that'll help the audience
+- another 2 speaker talk though x_x
+",4,3.25,,Y,Y,,wrattenlaura@gmail.com,"Where Did It Come From, Where Did It Go? What the Heck is an OAuth Flow?","OAuth can feel like a big, scary monster full of techy jargon and tricky standards. But it doesn't have to be that way! Ever clicked ""Connect with Apple"" or allowed an app to access your calendar? That’s OAuth in action! Join us for a friendly and easy-to-understand exploration of OAuth, specially crafted for beginners.
+
+In this talk, we'll break down the most important bits from the official documents (RFCs) and take you on a quick tour through OAuth history—from OAuth1 to current best practices. We'll delve into what OAuth is, how it works, and why it has evolved over the years.","blue, but fizzy",Laura Wratten and Angus Cornall,,"Laura and Angus are best friends, and Application Security Engineers at Canva. Laura is passionate about good security education and wholesome security vibes (oh, and permaculture, fermenting, and rescue greyhounds). Angus loves diving into hands-on security and helping others do the same, as well as hiking, biking and traveling. Both have mildly cursed vocabularies from years of memes that turned from ironic to regular speech :').",,"We want to introduce and cover some learnings around OAuth in a non-jargony and easy to understand way. OAuth is a topic with a lot of nuances and misunderstandings, and we'd really like to make it a little less scary for beginners by reading and summarising the key information from the RFCs and presenting it in a clear way. We would focus on OAuth from a historical lens (what is it, how it works, and then why a certain version was iterated on), and do this while updating one base diagram with new information as the standards and controls change. We hope by doing so, people can gain a better understanding of what OAuth is used for, and why certain controls exist and are important. We also hope people walk away with more empathy for themselves and others in knowing that OAuth is a hard and nuanced space.
+
+Talk structure would be along the lines of (though might cover some flows in less detail to keep it snappy and keep people engaged):
+
+- Intro (what/why are we talking about OAuth, what is an RFC, and why did we read all the OAuth-related ones for this talk)
+- OAuth journey through time
+  - Let’s share resources better! (fledgling OAuth / OAuth1): covering how it worked, what happened/went wrong when people were using it, then leading into the newer hardened flow / evolved standard that followed
+  - OAuth2 Implicit flow: covering how it works, what happened/went wrong when people were using it, then leading into the newer hardened flow / evolved standard that followed
+  - OAuth2 Authorization Code Flow (for authorization): covering how it works, what vulnerabilities/misuses we see in this flow, what hardening mechanisms or new standards were added?
+  - OIDC (for authentication): covering how it works, what vulnerabilities/misuses we see in    this flow, what hardening mechanisms or new standards were added?
+  - PKCE and emerging styles, plus a brief mention of some OAuth vulns we see today
+- Learnings from history
+  - People will continue using standards in weird and wacky ways we don’t expect them to
+  - OAuth is hard and really nuanced, - let’s be thorough when implementing or reviewing, and be kind to developers and ourselves.",20 minutes,a mentor for my talk,I will email some kind of document about my talk AND my talk slides for The Great Archive before november 9,"yes, this link is a close friend and trusted ally -> https://purplecon.org/conduct",hello friends!
+01/09/2024 20:40:49,4,"5
+(a) Really cool to see someone talking about the diplomacy angle of security
+(b) Not familiar with the speaker's level of skill",,5,5,3.75,,Y,Y,,caitelatte@gmail.com,tips to build and repair empathy with other teams,"Any outcome works better if the teams involved work together instead of against each other. But many teams I've worked in have had longstanding issues, misunderstandings or grudges, which caused stress and poorer work outcomes for all involved.
+
+We'll talk through some tips, resources and mindsets i've found useful when working on repairing team relationships, both as a newcomer and when trying to reset my own mindset.","blue, but fizzy",cait m,caitelatte,"cait lives in Naarm Melbourne with their cat Mickey and works as a consultant with Red Hat. they do Linux and security stuff, and try to empathise and enable teams to improve their culture and impact.",@caitelatte@cloudisland.nz and https://caitelatte.com,"hello 💖 talk will be Google slides + me! 
+structure/general notes so far (there will be more as I work through references and ideas):
+1. motivation/relevance: cyber security (or basically all computer work) are usually deeply dependent on working with other people and teams, whether that's developers, operational teams, customers or leadership.
+2. tips:
+    * check your own actions - reset, take a step back, note where you could be contributing to problems.
+    * build working relationships with individuals - showing genuine interest in what they're working on, small talk, (respectfully mention neurodiverse communication differences and assuming good intentions), understanding their contexts and teams priorities
+    * understand teams conflicting priorities and influences - operations, KPIs, management priorities, workload pressure
+    * (sub point here about understanding your own team and what's affecting the relationships from your side)
+    * start repairing: identify common friction, what's a misunderstanding, what can we fix in that
+    * realism (optional, will sprinkle through the other sections to not down the mood):
+        * sometimes, empathy doesn't fix a situation - a couple of short options for ways forward (accept, reduce, step away)
+        * healthy boundaries! try not to make yourself the only face of your team - mention unequal distribution of ""glue work"" and impacts on marginalised people
+3. wrapup takeaways 🥡
+    * if you notice interactions with teams that cause a lot of stress or dysfunction at work, we've got a toolbox that you can pull out to see what you can do
+
+references/recommendations: 
+*5 dysfunctions of a team by Patrick lencioni
+* purplecon 2019 talk ""embracing empathy""
+* Phoenix project - the security guy's story arc",20 minutes,a mentor for my talk,I will email some kind of document about my talk AND my talk slides for The Great Archive before november 9,"yes, this link is a close friend and trusted ally -> https://purplecon.org/conduct",💖💜 holotaco just released a gorgeous new purple nail polish that reminded me of the 420... happy to bring peely base and sparkly toppers if a nail polish setup is hygienic and if I'm there! https://www.holotaco.com/products/peri-social
+02/09/2024 17:27:34,5,"5
+(a) I REALLY want to see this talk and I think our audience will too.
+(b) Definitely a strong speaker
+(c) Bonus points for gentle purple-shaded topic",,"5
+
+- yes it's about your emotions
+- our entire audience is suffering from burnout probably",5,3.75,,Y,Y,,ash.liu@protonmail.com,Burnout: From Recognition to Recovery,"Have you been feeling more stressed and exhausted lately? You're not alone. 
+
+Feeling burnout is a sign that something needs to change. This talk explores the common burnout causes and symptoms, and discusses practical strategies for recovery.",uhhhhhh,Ash,,"Ash is an engineer working in incident response and product security. They are passionate about creating an inclusive and supportive tech community where everyone can thrive. Between responding to security incidents and advocating for secure coding, they can be found climbing mountains, and teaching computer science to school students.",,"This talk is still very drafty. I'm very open to modifying the talk title, abstract and/or duration if a talk senpai thinks it would vibe with more of the purplecon audience. 
+
+Main talk goal: How to identify/manage/recover from burnout yourself and help others around you. 
+
+Secondary talk goal: Stress and burnout are experienced by many people. You're not weak or broken or a failure for being burnt out. Life happens. Life is hard.
+
+Overview:
+1. Common things that lead to burnout - high workload, feeling out of control, lack of recognition
+2. Symptoms of burnout – frustration, cynicism, things aren't as fun as they use to be  
+3. Personal things that may help  – detach from work, downtime/rest/sleep, hobbies, exercise, crying/letting emotions run their course, finding someone (trusted friend/a medical professional) to talk to
+4. Environmental things that may help – no heroes on a team/letting things fail, celebrating wins, talk about mental health ",20 minutes,a mentor for my talk,I will email some kind of document about my talk AND my talk slides for The Great Archive before november 9,"yes, this link is a close friend and trusted ally -> https://purplecon.org/conduct","I've talked into multiple bananas, but there's been no response yet. Are you sure this works? I'll keep trying! 🍌📞"
+01/09/2024 00:47:23,"2
+if this was ""learning to hack wordpress"" i would instantly be sold","4
+(a) I am very interested in this topic and would really want to see this talk
+(b) ... but I admit it's a bit niche.
+(c) Colin is a good presenter, his previous talks are funny and educational. He takes feedback very seriously too.",,3,,1.75,"we'd like to accept this talk if it could be aimed at a more intro-level audience, and focus on learning to hack wordpress as a topic. If it were told as a story, that would be even better.
+",P,Y,,cxu@atlassian.com,plugins on fire,"or ""Hacking WordPress plugins for fun and profit"".
+
+If you're new to security code review or bug bounties, finding vulnerabilities in WordPress plugins could be a gentle entrypoint that allows you to learn by doing, while racking up CVEs and a bit of money along the way - not to mention you'll be improving the security of thousands (or even millions!) of sites that rely on these plugins.
+
+Come along to find out more about how you can get started (or just come for the memes, you do you). This is not a hardcore hacking talk, but there will be recommended resources for you to dive as deep as you want for homework",basil leafs,Colin,,𓁹‿𓁹 heh,https://au.linkedin.com/in/colin-xu-31a547134,"tbh I don't have any materials ready but the main takeaways I'm hoping for are:
+* knowing that bounty programs for WP plugins exist
+* why you might (or might not) want to hack on these programs
+* how to get started with hacking WP plugins (including high-level overview of different options for setup, what to look for, and how to look for it)
+* appreciating how terrible many WP plugins are :angry_lol_cry:","Probably 15 minutes, but possibly more",microphone pls,I will email some kind of document about my talk AND my talk slides for The Great Archive before november 9,"yes, this link is a close friend and trusted ally -> https://purplecon.org/conduct",press the any key to continue
+07/09/2024 12:22:42,"4
+wild secret wisdom, still geared towards haxxors","3
+(a) It is kind of interesting and surprising that Microsoft would make their own P2P network, but there are other talks I want to see more
+(b) Not familiar with speaker's level of skill",,"3
+
+- way too niche and not enough context given for the audience
+- but i can fix him
+- in rehersal i reckon we can extract a simpler, cleaner 20 minutes from this cfp, it's his first time after all
+- even then, it'll be another ""how i found these vulns"" talk, which isn't necessarily bad, but not very sparkly
+- i think it's worth a shot because once again i can fix him",3,2.25,(but will coach),Y but can't present,N,N,tom@tplant.com.au,WITHDRAWN p2pwn: hijacking Microsoft's global torrent network,"Apologies, I've had a clash and won't be able to attend purplecon this year. Thanks for running it though, I hope it runs again next year!
+
+Torrenting is only for pirates, right??? Turns out Microsoft's little-known torrent network has grown to over a billion devices, including game consoles and even IoT. Let's look under the hood to discover some novel attacks, and discuss practical defense strategies in a cloud-native world.",basil leafs,Tom Plant,pl4nty,"Tom enjoys (bre|m)aking tech of all kinds. He's currently building automated endpoint management at devicie.com, and has worked to protect devices and clouds across industry, government, and higher ed. He also runs a Kubernetes homelab and a popular CTF.
+
+He's fond of pastel green and plant-related puns.",https://tplant.com.au,"This is my first CFP, so not sure if this is enough detail - happy to provide more, and I'd love feedback :)
+
+Goal: attendees learn about a little-known Windows/IoT feature, some novel attacks/tools, plus mitigations for it and features like it
+
+Context: what's a torrent network and why did Microsoft build one? what's it used for today?
+
+Details: high-level arch diagram - cloud services, peering. links for learning more - protocols like MS-DO/Teredo, recent Linux support (IoT)
+
+Attack 1: why poisoning content during peering is hard, several mitigations like checksums. show a passive mDNS-based AitM instead - track downloads like Windows/Defender updates and determine exploitability of target. also trigger arbitrary GET with HTTP 302, room for future research? and link to remy's torrent tracker idea using cloud service instead of AitM (https://remyhax.xyz/posts/do-harm/). plus link to ghidra/windbg setup for DoSvc
+
+Attack 2: arbitrary file upload to network via Microsoft Intune - free P2P malware distribution with encryption, firewall allowed, no TLS inspection, disk writes from SYSTEM. even bypasses ZTNA like Zscaler. yay for multi-tenant cloud! release scripts for upload/download
+
+Mitigations: show GPOs, firewall rules, detections. but network security is hard in a cloud world. discuss broader mitigations - mDNS, IPv6 tunnelling, segmentation",20 minutes,a mentor for my talk,I will email some kind of document about my talk AND my talk slides for The Great Archive before november 9,"yes, this link is a close friend and trusted ally -> https://purplecon.org/conduct","idk if this talk fits the vibe, and it'd be my first public talk too. but regardless I'm keen for the con. thanks for reviewing :)"
+07/08/2024 14:18:01,"3
+interesting topic but failure talk not succes talk. if we bully sam i am fully in","4
+(a) We had an AWS-related talk at the last purplecon and it had a LOT of interest. (Edit: But this particular topic is rather niche...)
+(b) I don't know how good a presenter Sam is.
+(c) I would want Sam to switch the talk around so it becomes ""You SHOULD do this (positive)""",,"2
+the point being made is valid, but it seems like more of a ""what not to do"" thing, rather than inspiring the audience with what to do. 
+not sure how relevant this specific IAM role mistake is to the audience",❤️,2.00,"Yes with marriage-based guidance. (Positive talk about how to do IAM roles good yay, not so much bashing the mistakes)
+
+
+""How Jemima got her groove back""",Y,Y,,sam.thorogood@gmail.com,the dangers of serverless & IAM proliferation,"grug dislikes complex software (and security model) which is like ball with million spikes, makes grug brain sore just by holding. instead grug thinks treat whole ball like sandpaper, all together low-level spiky. grug will permit small number of big spikes because easier to understand where actual risky bits are, like bear cave over there.",uhhhhhh,Sam Thorogood,samthor,I have opinions™,https://samthor.au,"Full disclosure, I haven't written this talk. It could even be a lightning talk, 5-10 minutes - happy for very short
+
+# Background
+
+serverless is dumb and encourages everyone to create a new IAM role for every single ""thing"" - be it a lambda, docker instance, whatever - and apply custom rules about what it's allowed to do, all in the name of security isolation.
+
+However, the proliferation of more ""things"" becomes unmanageable very quickly, both in terms of software complexity but also (relevant to purplecon) the security model of each one of those things and what they're allowed to do. And I believe it gets *worse* the bigger team you have - because no one person can rationalize about it all it tends to get ignored and skipped.
+
+# This talk
+
+This talk will basically be a plea to not repeat the failures I've seen in my professional startup life dealing with AWS/GCP etc where people believe an exhaustive repertoire of IAM roles ""is security"". And how to get out of the complexity mines which, if you join an existing company, are in fact so deep with existing staff so amazingly stockholm-syndromed into thinking they provide value.
+
+The first slide will be ""less is more"" etc.",15 minutes,,I will email some kind of document about my talk AND my talk slides for The Great Archive before november 9,"Yes, this is a purple link -> https://purplecon.org/conduct",🆒
+09/07/2024 18:22:06,1,"1
+(a) Not an obviously relevant topic for the audience since this time is in AU, not NZ
+(b) But could be one of those fun ""metaphor"" talks like Atticus does",,1,1,0.75,,N,Y,n/a,gregorymasonnz@gmail.com,Sorting out the rats and mice: lessons from biosecurity in understanding threats,"New Zealand cares deeply about their native flora and fauna, building literal physical fences to protect their biodiversity. Doing so requires understanding what they're defending against, what they're protecting, and the environments they're working within. Let's explore their work and some of their challenges to see how understanding threats helps when building our own metaphorical digital fences.","blue, but fizzy",Greg,@livingpixel,nerd in theory and in practice. If I'm not escaping into fantasy in tabletop games and video games then I'm fantasising about making my own games. In work I try to keep computers safe and where I can support others to understand how to do the same,,"This idea has been brewing in my head for years, a note on my phone, a discord channel, a Google doc, and multiple discussions with peers and friends. I have yet to put it together. At this stage I image it'll be hand-drawn slides (in pdf) with more pictures than text",Adaptable. Likely best around 15 minutes (wouldn't go over 20),"a mentor for my talk, getting to purplecon",I will email some kind of document about my talk AND my talk slides for The Great Archive before november 9,"Yes, this is a purple link -> https://purplecon.org/conduct",Did you know that if you put together all of the capital letters in this form it spells out EOOTGAAUANDTGAYNTRASHCAN?
+17/08/2024 02:51:39,"0
+could be interesting in a designing products for security sense, but, pitched as how you a real world person deal with google accounts which i don't think is our demo","1
+(a) Could be good, but it sounds more like popular security advice that's not tailored for people IN security
+(As they said, ""consumer account"")
+(b) Not familiar with speaker's level of skill",,2,,0.75,,N,Y,n/a,jenwhy@google.com,Your Digital Fortress: Building a Secure Google Account,"This talk is about things to keep in mind when protecting your consumer Google account. In particular when using popular services such as Maps, Google Account and Photos. ","blue, but fizzy",Jen Y,whygenwhy,Jen's a Cyber Cookie Monster,,"Designing for Privacy in mind,
+Key focus areas are Account Safety, location safety and photos partner sharing. For account safety, primarily diving into the Data and privacy options in google account safety. For location safety, talking about location trackers and the industry standardization of location tracker protocols. For photos, I'll try and may want to co-present with someone from Photos Partner sharing but we'll see.",20 minutes,getting to purplecon,I will email some kind of document about my talk AND my talk slides for The Great Archive before november 9,"Yes, this is a purple link -> https://purplecon.org/conduct",
+01/09/2024 23:48:02,0,"2
+(a) Not super clear how the talk relates to security
+(b) But will probably be entertaining anyway",,"2
+
+- not really relevant or overly coherent
+- student speaker though, that's good
+- some of the points about how to be inspired/learn from role models are the kinda positive, inspirational vibe we want to have
+- disclaimer i gave morgan feedback on his cfp draft",0,1.00,,N,Y,n/a,morgan.swaak@gmail.com,What skateboarding taught me about learning!,"LEARNING.  Learning to walk, learning to talk, learning to be strapped into our seats and recite the Pythagorean Theorem, we’ve all been there! Learning is what separates us from our quadrupedal brethren’s and yet sometimes I don’t want to learn.  Learning can feel very abstract and I feel like I’m making no progress, learning can feel very technical and I feel like I’ve fallen behind, learning can be hard and I’m worried of failing. But skateboarding taught me how to fail, how to be inspired and how to find success!",basil leafs,Morgan Swaak,,"Hellloooo I’m Morgan, I’m a second year student at UNSW who likes public speaking and teaching too much!! Come talk to me about skateboarding, good vegan recipes or your third favourite lettuce 🤩",https://au.linkedin.com/in/morganswaak,"Talk outline:
+
+NOTE: there will be lots of stories, I love stories, unfortunately I haven’t added them all in yet but it’ll be talking from my experience (my stories) 
+
+Why does skateboarding help me learn
+- Learning security is mostly a mental thing, however I can’t notice synapses firing or my brain getting more wrinkles, on the other hand learning skateboarding is clear for me to see and allows me to break down the learning process!
+
+How to fail well
+- Making failure hurt less (so it’s easier to fail)
+- Theory will only take you so far (so get started)
+- No one shows failure but it is clearly part of the process (so it’s normal)
+
+SECURITY LINK: Sometimes I feel like I don’t know enough to start a personal project or to do something cool in security
+
+How to be inspired 
+- Role models (show you what’s possible)
+- Learning new things (inspiration comes from combining things you know)
+- Making the most of your situation (tony hawk can do a 900, I can barely ollie, that’s alright)
+
+SECURITY LINK: Sometimes I feel unmotivated or feel like I can’t make anything worthwhile
+
+How to find success:
+- Being yourself (I can’t do a kick flip, but I can do much cooler things)
+- Surrounding yourself with others (they motivate and inspire)
+- Send it (give it your 100% confidence, you can’t land a trick half hazardously)
+
+SECURITY LINK: Sometimes I feel like a failure when comparing myself to peers that find ODays in Linux kernels or sandbox escapes 
+
+STUFF IVE DONE
+- I did a TEDX talk with my uni: https://m.youtube.com/watch?v=Vd2P0Z96d_0
+- Co-Directed UNSW SecSoc’s Security Conference SCONES!! Aimed at getting people into security in an approachable way!
+- I’ve been teaching public speaking for 2 years to 8-13 year olds
+- Very open to feedback and happy to chat!!
+- Keen to start tutoring the intro security course at UNSW next term! (And have tutored intro coding course for 5 terms)",15 minutes,a mentor for my talk,I will email some kind of document about my talk AND my talk slides for The Great Archive before november 9,"yes, this link is a close friend and trusted ally -> https://purplecon.org/conduct",beep boop
+30/08/2024 23:17:05,"0
+great talk for owasp day, too much long spec detail for us","4
+(a) OAuth comes up constantly in AppSec. 
+(b) Kaif is a good speaker and I'm confident he would give an interesting talk.
+(c) Talk is too long as currently proposed.",,"4
+
+they want 45+ minutes, absolutely not. we can tell them they have 20, mayyyybe 30, and help them cut down their talk to the best bits in rehersal. 
+2 speakers is also a bit worrying, since i've never seen it go well, but they say it went well before
+it also doesn't seem like there will be enough context for people who don't know oauth well, but again we can try and give them that feedback in rehersal.
+if they accept us cutting down their talk time to 20 or 30m, then i think we should accept this",2.5,2.50,,N,,,thats.kaif@gmail.com,OAuth Hacking Marathon - Exploiting Common Security Pitfalls and Mitigating Them,"Oauth is a crucial piece of the modern technology puzzle that enables us to experience a more unified and seamless digital ecosystem. In this talk, we will showcase a series of demos that exploit various vulnerabilities both on the client side and on the authorisation server of a fictional OAuth service to show the common security pitfalls and how to navigate them.
+
+In a cat-and-mouse chase fashion, the demos involve the developers patching the OAuth vulnerabilities, only for the hackers to identify a new, more complex attack to own the company again. These demos are inspired by real-world incidents and will illustrate how attackers actually exploit them in the wild.
+
+OAuth gives us the immense power of letting our apps and services share data seamlessly across them. But as Uncle Ben said to Spider-Man, “With great power comes great responsibility,” OAuth can also be a blessing or a curse. And in this talk, we will explore what can go wrong with OAuth if we don’t wield this mighty power carefully.
+
+Throughout the session, we will also discuss defensive strategies and industry best practices to tackle these attacks. Additionally, we will analyse the root causes of these vulnerabilities and discuss how the future OAuth 2.1 version helps mitigate such attacks.
+So buckle up for a roller coaster live hacking marathon! ",normal snack,Kaif Ahsan,verbal-noun,"Kaif Ahsan is a coder by passion and a hacker by profession. He started his journey in tech as a Software Engineer but soon fell in love with the art of breaking software. He currently works as a Product Security Engineer at Atlassian, where his team works on helping developers ship secure products and keep them safe during cyber attacks and incidents. 
+
+Kaif is a big proponent of education and open access to knowledge. He regularly volunteers to run cybersecurity workshops at various universities, hosts/gives talks at local meet-ups and conferences and runs the YouTube channel Everything Cyber, where he shares hands-on and conversational videos on tech and cybersecurity.",https://www.linkedin.com/in/kaif-ahsan/,"## Talk Structure ## 
+OAuth has a lot of moving parts and without prior understanding it’s often difficult to understand why and how of various vulnerabilities relating to it. Hence, instead of just listing out the various security weaknesses in OAuth, our talk tries to take more storytelling approach to navigate the pitfalls in the technology. This way all the relevant concepts required are gradually introduced to the audience and they do not zone out due to lack of engagement. 
+
+The two speakers will act like two hackers trying to exploit OAuth and will switch in and out between conversations among ourselves as we’re working our way through the exploits and with the audience to make them understand the issue deeper.
+
+This narrative & demo based approach was chosen to also gradually increase the complexity of the attacks so the audience understands how and why exactly the vulnerability occurs. Finally after each demo the patching / fix section enlightens the audience of potential strategies to mitigate these type of attacks.
+
+This narrative and conversation based methodology worked really well for a different supply chain hacking marathon talk we conducted in BSides Sydney (2023) and Bsides Brisbane (2024) so we want to replicate that to explain more complicated areas such as OAuth. 
+
+
+## Outline ## 
+- Introduction to OAuth 
+-- We give a gentle introduction to OAuth with examples - the what, why and how. 
+-- Zooming into the ‘how,’ we introduce a few pre-requisite concepts & terms that will be important to understand the attack that follows. 
+--- Most of the relevant terms will be introduced as they are required for the demos.
+-- We combine all the concepts to give a visual overview of the Authorization code and Implicit Code flow. 
+-- As part of the introduction, we will also showcase the code and infrastructure that our fictional Everything Cyber company has set up.
+
+- Client app exploit demos 
+-- We will showcase a series of vulnerabilities that can arise from the insecure implementation of an OAuth client app. In this section, Everything Cyber will act as an OAuth client, accessing information from other services. We will showcase how an insecure client app setup can lead to account takeovers and information leaks.
+-- The demos will include - 
+--- Authentication bypass via OAuth implicit flow	
+--- Forced OAuth profile linking due to flawed CSRF protection. 
+--- Assignment of accounts based on the email address
+
+-- For each demo, we will also first cover the infrastructure required so people understand typical OAuth setups. 
+-- Then we will cover the fix to the problem. There will be an emphasis on the ‘why’ so audience understands the underlying mechanics. 
+
+- Authorisation server exploit demos 
+-- We will showcase how a lack of proper implementation on the authorisation server side can lead to mishaps. This time, Everything Cyber will collaborate with other apps as the resource server to allow sharing its data with others. We will see how vulnerabilities in resource and authorisation servers can lead to a myriad of issues. 
+-- Our demos will include: 
+--- Stealing OAuth Token via redirect_uri due to flawed redirect_uri validation. 
+--- Stealing OAuth access tokens via an open redirect
+--- Stealing OAuth access tokens via a proxy page
+-- We will also cover infrastructure and mitigation tactics for each attack. 
+- OAuth 2.1 updates
+-- We will cover the major chances upcoming in the 2.1 version and how they will help us uproot the root cause of the various issues present in 2.0. 
+","40-45+ minutes (the more time we have, the more demos we can do. We can do it 30 too but just means we will need to cut down on contents)",,I will email some kind of document about my talk AND my talk slides for The Great Archive before november 9,"yes, this link is a close friend and trusted ally -> https://purplecon.org/conduct","The answer to the ultimate question of life, the universe and everything is 42."
+02/09/2024 02:09:53,1,"0
+(a) Talking about abusive exes, stalking, invasion of individual people's privacy. I wouldn't want this material to be at purplecon.
+(b) Not familiar with speaker's level of skill",,"4
+
+- using computer skills for good
+- personal security yay
+- slightly concerning take about ""pen testing"" other people's IoT for your own safety but uhhh i can fix her in rehersals",4,2.00,,N,Y,n/a,gyle.delacruz@gmail.com,Fight like a Girl – Using Tech to Protect our Digital Lives,"If you're new to cybersecurity, you might think it's all about big companies protecting their data and systems. But what about your personal information? It’s easy to assume that having strong passwords and maybe using two-factor authentication is enough. However, there’s much more you can do to keep your digital and physical life secure. Listen to what this gal has learned while traversing different pathways in the cybersecurity industry which she constantly shares with others. It’s not just about securing a company; it’s about protecting yourself. ","blue, but fizzy",Gyle,,G is a blue teamer who enjoys digging into digital evidence to piece together a timeline of events. She often dreams of being spicy when writing the lessons learned segment in her incident response report when past mistakes get repeated.  ,https://twitter.com/GyledC,"I came up with this presentation after re-connecting with an old friend from my high school days. She was hiding from an abusive ex and I helped her with securing her online presence. It made me reflect of what I’ve also done to help me when I was stalked both online and offline when I was just starting out on my career shift to tech about 2 decades ago. I gave a version of this talk to AWSN and Day of Shecurity but I asked that there was no recording to be done because of the sharing of my friend's story. 
+
+1.        Introduction – whoami, show short video from Youtube “Fight like a girl”, why did I decide to give this talk (personal experience with stalking & a friend who was fleeing from an abusive ex)
+2.        Areas in infosec which we can apply to help us with protecting our digital lives
+a.        CTI
+i.        What is CTI
+ii.        Use of threat modeling to build our personal threat models
+iii.        Use of OSINT to clean up our online presence; use of disinformation to provide fake info for stalkers/abusive ex
+iv.        Use of canaries
+b.        Pen Testing
+i.        What is penetration testing
+ii.        Use of IoT devices & the need to know how to get in to prevent ex who may use them for “gaslighting”
+iii.        Use of wireless pen testing recon to check our physical environments
+c.        DFIR
+i.        What is DFIR
+ii.        Use of geolocation info to protect actual location & provide disinformation 
+iii.        Use of URL analysis, sandboxing and email header analysis online tools
+iv.        Use of incident handling/IR process to help recover from incidents
+3.        Summary – call to action
+
+",30 minutes,"If selected, may I have a low-sugar purple yam boba tea? I heard that there’s boba tea for this conference. But if it is too much of a hassle, please just ignore this. ",I will email some kind of document about my talk AND my talk slides for The Great Archive before november 9,"yes, this link is a close friend and trusted ally -> https://purplecon.org/conduct","I'm thinking of getting this quote as my next tattoo: You exist in the context of all in which you live and what came before you. I ordered a temporary tattoo with the design and I applied it before I started typing here. According to the instructions, it will darken over 1-3 days."
+06/09/2024 17:56:19,,"5
+(a) Wow. Sounds like an great overview opening talk. Wouldn't this just get you super excited for the rest of the day?
+(b) Alex says Liam is a good speaker",,5,,,,Y,Y,,liamoshan@gmail.com,everything you need to know about cyber,"it is simply not possible to learn everything you need to know about cybersecurity in a 20 minute talk slot, but we're going to do it anyway",uhhhhhh,Liam,,Liam started his career in cyber so long ago that it was still called infosec. He worked for many years as a software engineer before discovering that breaking things could be more fun than building things and jumped the fence to offensive security. He has worked as a pentester for over 10 years. Liam is enthusiastic about ducks,I am @liamo@mastodon.social on the only social media network that still brings joy in 2024,"cybersecurity: the supercut (this is actually not a bad alternative title. i'm very happy to take your advice on which option suits the purplecon æsthetic more)
+
+this talk will be a whirlwind tour of cybersecurity topics, including things like:
+Offensive Security
+GRC
+DFIR
+AppSec
+Cloud
+Privacy
+Threat Intel
+Security Operations
+AI (full disclosure, mainly going to clown on AI)
+
+
+An example of the level of detail for one topic: eg: GRC - what is it? what are the most common frameworks? (eg ISO27001, NIST CSF, E8) when/where are they used and how do they interrelate? These questions will be quickly addressed, then bam, onto the next topic
+
+I'm definitely not an expert in all these topics, but I am blessed to know people who are. I intend to shamelessly source content from a bunch of these people (but then provide full attribution, because while I play a bad guy in media, i'm actually a very respectful person at heart)",20 minutes,,I will email some kind of document about my talk AND my talk slides for The Great Archive before november 9,"yes, this link is a close friend and trusted ally -> https://purplecon.org/conduct","hey I don't need to tell you this but organising a con is a lot more work than a lot of people realise, so if you're reading this, I really appreciate you and what you're doing 💜"
