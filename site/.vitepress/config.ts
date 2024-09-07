@@ -72,6 +72,10 @@ export default defineConfigWithTheme<ThemeConfig>({
         href: '/sponsors',
       },
       {
+        title: 'go inside',
+        href: '/library',
+      },
+      {
         title: 'last time',
         href: 'https://2019.purplecon.nz',
       },
