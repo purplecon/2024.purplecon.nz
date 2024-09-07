@@ -56,8 +56,8 @@ export default defineConfigWithTheme<ThemeConfig>({
         href: '/',
       },
       {
-        title: 'submit a talk',
-        href: '/cfp',
+        title: 'talks',
+        href: '/talks',
       },
       {
         title: 'conduct',
@@ -68,12 +68,12 @@ export default defineConfigWithTheme<ThemeConfig>({
         href: '/tickets',
       },
       {
-        title: '$ponsors',
-        href: '/sponsors',
+        title: 'go inside?',
+        href: '/library',
       },
       {
-        title: 'go inside',
-        href: '/library',
+        title: '$ponsors',
+        href: '/sponsors',
       },
       {
         title: 'last time',
