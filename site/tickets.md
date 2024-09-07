@@ -49,7 +49,7 @@ if you are paying your own way use promo code `purple` at checkout for a **AUD 7
 
 or if you are a student give the `imastudent` promo code a try for a **AUD 25** ticket.
 
-please [contact us](/#contact-us) if you want to attend but would have difficulty affording it.
+please [contact us](/#contact-us) if you want to attend but would have difficulty doing so.
 
 <section>
       <p-books></p-books>
