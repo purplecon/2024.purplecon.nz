@@ -76,6 +76,10 @@ export default defineConfigWithTheme<ThemeConfig>({
         href: '/sponsors',
       },
       {
+        title: 'merch',
+        href: 'https://www.redbubble.com/i/t-shirt/purplecon-2024-the-shirt-by-purplecon/164335381.VL7OD',
+      },
+      {
         title: 'last time',
         href: 'https://2019.purplecon.nz',
       },
