@@ -71,6 +71,17 @@ layout: home
 <section id="contact-us" class="top">
       <p-books></p-books>
       <header class="mid">
+      <h1>merch</h1>
+      </header>
+      <div class="content mid">
+      <p> oh it's not just <a href="https://www.redbubble.com/i/t-shirt/purplecon-2024-the-shirt-by-purplecon/164335381.VL7OD">t shirts</a>. we're doing merch on <a href="https://www.redbubble.com/i/t-shirt/purplecon-2024-the-shirt-by-purplecon/164335381.VL7OD">redbubble</a>, instead of at the con. you can order it before the con and wear it there!! you can get official purplecon art by THE <a href="https://pepperraccoon.com">Pepper Raccoon</a> on like a <a href="https://www.redbubble.com/i/bucket-hat/purplecon-2024-the-shirt-by-purplecon/164335381.FDWJD)">bucket hat</a> or <a href="https://www.redbubble.com/i/coasters/purplecon-2024-the-shirt-by-purplecon/164335381.E5I3N">coasters</a> or something.
+      <a href="https://www.redbubble.com/i/t-shirt/purplecon-2024-the-shirt-by-purplecon/164335381.VL7OD"><img class="shirt" src="/shirt.png" alt="the purplecon t shirt art. it's got lots of cute symbols like nail polish and bubble tea, around the word purplecon"/></a>
+      </p>
+      </div>
+</section>
+<section class="top">
+      <p-books></p-books>
+      <header class="mid">
       <h1>who <em>are</em> you?</h1>
       </header>
       <div class="content mid">

@@ -17,11 +17,6 @@ Important files:
 - `settings.js` (ya)
 - `your-story.js` (the purplecon.ink source code gets compiled to this (by either the editor, inky, or the `inklecate` CLI. don't worry about this unless you're editing the story itself))
 
-## What to do next
-* Serve this page from the actual website, at `/library`
-* make the css not terrible and nice and mobile friendly
-* finish the story haha, lmao, xd
-
 ## More documentation
 The structure of this directory is taken from `ink-soaked`, so below is the README for `ink-soaked`. Enjoy getting drenched.
 
