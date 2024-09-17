@@ -81,7 +81,7 @@ serena is an ex-physicist and mathematician, once teen magazine editor-in-chief,
 
 ## It’s easier to Pirate with an Atlas…sian
 
-Have you ever wondered exactly how people pirate software? What are the tools and techniques they used? At Atlassian, every new penetration tester writes a crack for Jira during their first couple of weeks. Why? Because those same tools and techniques used to pirate software are critical skills needed to perform effective security tests & research. In this talk, I’m going to teach some of those techniques to you too! We’ll dive into Jira DC together with a hacker mindset, reverse engineering the logic behind its license check and exploring how we can modify and debug it.
+Have you ever wondered exactly how people pirate software? What are the tools and techniques they used? At Atlassian, every new penetration tester writes a crack for Jira during their first couple of weeks. Why? Because those same tools and techniques used to pirate software are critical skills needed to perform effective security tests & research. In this talk, I’m going to teach some of those techniques to you too! We’ll dive into pirating software together, exploring how we can modify and debug code.
 
 ### Giuliana
 
