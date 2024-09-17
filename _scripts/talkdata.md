@@ -25,13 +25,13 @@ I have opinions™
 
 ## Burnout: From Recognition to Recovery
 
-Have you been feeling more stressed and exhausted lately? You're not alone. 
+Have you been feeling more stressed and exhausted lately? You are not alone.
 
-Feeling burnout is a sign that something needs to change. This talk explores the common burnout causes and symptoms, and discusses practical strategies for recovery.
+Experiencing burnout is a sign that something needs to change. This talk explores common burnout causes and symptoms, and discusses practical strategies for recovery.
 
 ### Ash
 
-Ash is an engineer working in incident response and product security. They are passionate about creating an inclusive and supportive tech community where everyone can thrive. Between responding to security incidents and advocating for secure coding, they can be found climbing mountains, and teaching computer science to school students.
+Ash is an engineer working in product security and incident response. They are passionate about creating an inclusive and supportive tech community where everyone can thrive. When not putting out security fires, they can be found teaching computer science to school students, and climbing mountains.
 
 
 <hr />
