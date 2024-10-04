@@ -7,7 +7,7 @@ Come along to find out more about how you can get started (or just come for the 
 ### Colin Xu
 
 <div>
-<img src="https://pbs.twimg.com/media/FSZTMPRaMAI2YeD.jpg:large" style="max-width: 300px;"/>
+<img src="../assets/heh_bio.jpg" style="max-width: 300px;"/>
 </div>
 
 <hr />
