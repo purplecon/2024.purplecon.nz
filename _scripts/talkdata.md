@@ -1,4 +1,4 @@
-## plugins on fire
+![image](https://github.com/user-attachments/assets/4499eff0-f24f-41c1-807e-ca8beb9fe16e)## plugins on fire
 
 If you're new to security code review or bug bounties, finding vulnerabilities in WordPress plugins could be a gentle entrypoint that allows you to learn by doing, while racking up CVEs and a bit of money along the way - not to mention you'll be improving the security of thousands (or even millions!) of sites that rely on these plugins.
 
@@ -6,9 +6,7 @@ Come along to find out more about how you can get started (or just come for the 
 
 ### Colin Xu
 
-<div>
-<img src="../assets/heh_bio.jpg" style="max-width: 300px;"/>
-</div>
+![heh](https://i.imgur.com/AEJLczT.jpeg)
 
 <hr />
 
