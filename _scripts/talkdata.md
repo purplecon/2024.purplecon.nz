@@ -6,7 +6,7 @@ Come along to find out more about how you can get started (or just come for the 
 
 ### Colin Xu
 
-![heh](https://i.imgur.com/AEJLczT.jpeg)
+![heh](https://i.imgur.com/C5YGMWL.jpeg)
 
 <hr />
 
