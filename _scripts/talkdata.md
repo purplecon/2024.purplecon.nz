@@ -1,3 +1,17 @@
+## plugins on fire
+
+If you're new to security code review or bug bounties, finding vulnerabilities in WordPress plugins could be a gentle entrypoint that allows you to learn by doing, while racking up CVEs and a bit of money along the way - not to mention you'll be improving the security of thousands (or even millions!) of sites that rely on these plugins.
+
+Come along to find out more about how you can get started (or just come for the memes, you do you). This is not a hardcore hacking talk, but there will be recommended resources for you to dive as deep as you want for homework
+
+### Colin Xu
+
+<div>
+<img src="https://pbs.twimg.com/media/FSZTMPRaMAI2YeD.jpg:large" />
+</div>
+
+<hr />
+
 
 ## everything you need to know about cyber
 
