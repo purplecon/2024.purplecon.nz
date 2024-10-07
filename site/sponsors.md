@@ -14,30 +14,22 @@
 </section>
 
 <div class="mid">
-<table class="sponsors">
-    <thead>
-        <td colspan="2">
-            <img src="https://i.imgur.com/6p6yD5k.png" class="tea-icon"/>
-        </td>
-        <td></td>
-        <td>qq passionfruit green tea tier</td>
-    </thead>
-    <tr>
-        <td colspan="2"><img class="sponsor-icon" src="https://i.imgur.com/ewnsPKb.png" /></td>
-        <td></td>
-        <td><a href="https://assemblyfour.com/">AssemblyFour</a></td>
-    </tr>
-</table>
+  <div class="tier-header">
+      <h3 class="tier-name"><img src="https://i.imgur.com/6p6yD5k.png" class="tea-icon"/>
+      qq passionfruit green tea tier</h3>
+  </div>
+  <div class="sponsors-grid">
+      <div class="sponsor-row">
+          <a href="https://assemblyfour.com/" class="sponsor-link">
+              <img class="sponsor-icon" src="https://i.imgur.com/ewnsPKb.png" alt="Assembly Four" />
+          </a>
+      </div>
+  </div>
 </div>
 
 ----------------------------------------
-<div class="mid">
-<br>
-  <ul class="no-dots">
-    <li>🤑</li>
-  </ul>
-<br>
-</div>
+
+##### become a sponsor
 
 you oh you could direct company funds to purplecon 2024, supporting a community of current and future security enthusiasts from hugely diverse backgrounds.
 
