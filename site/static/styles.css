@@ -138,3 +138,27 @@ img.shirt {
   height: auto;
   margin-bottom: 12px;
 }
+
+thead {
+  font-weight: bold;
+}
+
+div.sponsors {
+  text-align: center;
+}
+table.sponsors {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+table.sponsors tr {
+  border: 1px solid #7c17df;
+}
+
+img.tea-icon {
+  max-width: 2em;
+}
+
+img.sponsor-icon {
+  max-width: 8em;
+}

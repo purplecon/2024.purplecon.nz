@@ -16,6 +16,19 @@ layout: home
 </section>
 <hr>
 
+<section class="mid">
+ <header>
+    <div id="align">
+      <p-books></p-books>
+    </div>
+    <div class="heading">
+      <h1>submit a talk</h1>
+      <p><a href="https://forms.gle/EvY14HLVjwuWuNNG9"><span class="ethereal">talk submissions open now 👀</span></a></p>
+      <p><strong>submissions close</strong>: september 1</p>
+    </div>
+  </header>
+</section>
+
 <section class="top">
   <main>
     <article>
