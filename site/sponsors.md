@@ -18,10 +18,10 @@
       <h3 class="tier-name"><img src="https://i.imgur.com/6p6yD5k.png" class="tea-icon"/>
       qq passionfruit green tea tier<img src="https://i.imgur.com/6p6yD5k.png" class="tea-icon"/></h3>
   </div>
-  <div class="sponsors-grid">
-      <div class="sponsor-row">
-          <a href="https://assemblyfour.com/" class="sponsor-link">
-              <img class="sponsor-icon" src="https://i.imgur.com/ewnsPKb.png" alt="Assembly Four" />
+  <div class="teatiers-grid">
+      <div class="teatiers-row">
+          <a href="https://assemblyfour.com/" class="teatiers-link">
+              <img class="teatiers-icon" src="https://i.imgur.com/ewnsPKb.png" alt="Assembly Four" />
           </a>
       </div>
   </div>
@@ -29,10 +29,10 @@
           <h3 class="tier-name"><img src="https://i.imgur.com/0rROF4s.png" class="tea-icon"/>
           pearl milk tea tier<img src="https://i.imgur.com/0rROF4s.png" class="tea-icon"/></h3>
       </div>
-      <div class="sponsors-grid">
-          <div class="sponsor-row">
-              <a href="https://volkis.com.au/" class="sponsor-link">
-              <img class="sponsor-icon" src="https://i.imgur.com/VC46dk6.png" alt="Volkisr" />
+      <div class="teatiers-grid">
+          <div class="teatiers-row">
+              <a href="https://volkis.com.au/" class="teatiers-link">
+              <img class="teatiers-icon" src="https://i.imgur.com/VC46dk6.png" alt="Volkisr" />
           </a>
           </div>
       </div>
@@ -40,9 +40,9 @@
       <h3 class="tier-name"><img src="https://i.imgur.com/LodvmJ6.png" class="tea-icon"/>
       communi-tea tier<img src="https://i.imgur.com/LodvmJ6.png" class="tea-icon"/></h3>
   </div>
-  <div class="sponsors-grid">
-      <div class="sponsor-row">
-          <a href="https://katieconf.xyz" class="sponsor-link">
+  <div class="teatiers-grid">
+      <div class="teatiers-row">
+          <a href="https://katieconf.xyz" class="teatiers-link">
               <span class="sponsor-icon ethereal">katieconf</span>
           </a>
       </div>
