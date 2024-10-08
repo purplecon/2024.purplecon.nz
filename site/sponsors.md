@@ -25,6 +25,28 @@
           </a>
       </div>
   </div>
+    <div class="tier-header">
+          <h3 class="tier-name"><img src="https://i.imgur.com/0rROF4s.png" class="tea-icon"/>
+          pearl milk tea tier</h3>
+      </div>
+      <div class="sponsors-grid">
+          <div class="sponsor-row">
+              <a href="https://volkis.com.au/" class="sponsor-link">
+              <img class="sponsor-icon" src="https://i.imgur.com/VC46dk6.png" alt="Volkisr" />
+          </a>
+          </div>
+      </div>
+  <div class="tier-header">
+      <h3 class="tier-name"><img src="https://i.imgur.com/LodvmJ6.png" class="tea-icon"/>
+      communi-tea tier</h3>
+  </div>
+  <div class="sponsors-grid">
+      <div class="sponsor-row">
+          <a href="https://katieconf.xyz" class="sponsor-link">
+              <span class="sponsor-icon">katieconf</span>
+          </a>
+      </div>
+  </div>
 </div>
 
 ----------------------------------------
