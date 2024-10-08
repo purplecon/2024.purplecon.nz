@@ -138,3 +138,45 @@ img.shirt {
   height: auto;
   margin-bottom: 12px;
 }
+
+thead {
+  font-weight: bold;
+}
+
+div.sponsors {
+  text-align: center;
+}
+
+.sponsors-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.tier-name {
+  font-weight: bold;
+}
+
+.sponsor-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+
+.sponsor-link {
+  display: grid;
+  place-items: center;
+}
+
+img.tea-icon {
+  max-width: 2em;
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+img.sponsor-icon {
+  max-width: 15em;
+  max-height: 6em;
+  height: auto;
+}
