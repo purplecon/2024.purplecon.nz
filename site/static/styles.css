@@ -176,6 +176,7 @@ img.tea-icon {
 }
 
 img.sponsor-icon {
-  max-width: 8em;
+  max-width: 15em;
+  max-height: 6em;
   height: auto;
 }
