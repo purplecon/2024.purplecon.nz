@@ -4,7 +4,7 @@ If you're new to security code review or bug bounties, finding vulnerabilities i
 
 Come along to find out more about how you can get started (or just come for the memes, you do you). This is not a hardcore hacking talk, but there will be recommended resources for you to dive as deep as you want for homework
 
-### Colin Xu
+### Colin
 
 ![heh](https://i.imgur.com/C5YGMWL.jpeg)
 
