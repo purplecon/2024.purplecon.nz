@@ -11,10 +11,10 @@
   We do not tolerate harassment of anyone, in any form.
 </p>
 <p>
-  Harassment includes offensive verbal comments related to gender, sexual orientation, disability, age, race, or religion, deliberate intimidation, stalking, following, harassing photography or recording, sustained disruption of talks or other events, inappropriate physical contact, and unwelcome sexual attention. This is not an exhaustive list. If you aren't sure whether you'd be harassing someone by doing a thing, don't do it.
+  Harassment includes offensive verbal comments - regardless of whether they are in person, online, or virtual -  related to gender, sexual orientation, disability, age, race, or religion, deliberate intimidation, stalking, following, harassing photography or recording, sustained disruption of talks or other events, inappropriate physical contact, and unwelcome sexual attention. This is not an exhaustive list. If you aren't sure whether you'd be harassing someone by doing a thing, don't do it.
 </p>
 <p>
-  Sexual language and imagery is not appropriate anywhere related to or adjacent to purplecon, in person or other materials such as slides, handouts, or anything else.
+  Sexual language and imagery is not appropriate anywhere related to or adjacent to purplecon, in person or online, in materials such as slides and handouts, or anything else.
 </p>
 <p>
   Participants asked to stop any harassing behavior are expected to comply immediately.
