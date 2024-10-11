@@ -90,18 +90,6 @@ Hi! I’m Giuliana, a Security Testing engineer at Atlassian (or pentester, cart
 <hr />
 
 
-## How can security metrics learn a lesson from bushfire ratings?
-
-Metrics are an often misunderstood valuable tool in conducting defensive cyber security operations. From understanding the workload of your staff, to understanding the effectiveness of your controls, being able to have quantitative evidence to support your business and operational decisions is critical.
-
-This talk will discuss some of the ways to generate relevant and effective metrics for your cyber security function, taking lessons from recent changes in metrics for bushfire ratings, the Essential 8, as well as other fields. We'll also talk about metric fatigue and the crying wolf problem - how the wrong metrics can have a significantly detrimental effect on your cyber efficacy.
-
-### Iain
-
-Iain is the Full Spectrum Cyber Practice Lead for Leidos Australia, providing oversight and support to all of Leidos' Australian programs for cyber security including its military platform work. Iain has previously worked as a Cyber Research Engineer and an Assistant Director for Cyber Threat Intelligence within the Department of Defence. Iain is one of the founders of ComfyCon AU, a virtual conference founded in response to the cancellation of cyber security conferences due to the COVID-19 pandemic.
-
-
-<hr />
 
 
 ## Data breaches: your casual end of year security problem
