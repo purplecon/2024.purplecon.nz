@@ -24,20 +24,17 @@ export default defineConfigWithTheme<ThemeConfig>({
 
   // this is in 'public', but it's copied to the top-level before release
   head: [
-    [
-      'script',
-      { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-B207RNWMGV' }
-    ],
+    ['script', { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-B207RNWMGV' }],
     [
       'script',
       {},
       `window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', 'G-B207RNWMGV');`
-    ]
-    ,
-    ['link', { rel: 'icon', href: './logo-64.png' }]],
+      gtag('config', 'G-B207RNWMGV');`,
+    ],
+    ['link', { rel: 'icon', href: './logo-64.png' }],
+  ],
 
   vue: {
     template: {

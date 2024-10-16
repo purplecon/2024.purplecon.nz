@@ -33,6 +33,40 @@ a {
     color: #a6cdfa;
     background: purple;
   }
+
+  &.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80px;
+    background: url(https://media.giphy.com/media/gG6xmgCgm4BadaD45x/giphy.gif);
+    background-size: 4000px;
+    image-rendering: pixelated;
+    background-position: 0px 600px;
+    font-weight: 500;
+    overflow: hidden;
+    letter-spacing: -1px;
+    box-shadow: 4px 4px 0 #0003;
+
+    span {
+      font-size: 2em;
+      will-change: transform;
+      transition: transform 0.07s;
+    }
+
+    &:hover span {
+      transform: scale(1.4) rotateZ(calc(var(--random-dir) * 0.1rad));
+      transition: transform 0.33s;
+    }
+
+    &:nth-child(2) {
+      background-position: 128px 400px;
+
+      &:hover span {
+        transform: scale(1.4) rotateZ(calc(var(--random-dir) * -0.1rad));
+      }
+    }
+  }
 }
 
 html {
