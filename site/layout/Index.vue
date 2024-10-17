@@ -39,7 +39,7 @@ a {
     align-items: center;
     justify-content: center;
     min-height: 80px;
-    background: url(https://media.giphy.com/media/gG6xmgCgm4BadaD45x/giphy.gif);
+    background: #1b1d2e url(https://media.giphy.com/media/gG6xmgCgm4BadaD45x/giphy.gif);
     background-size: 4000px;
     image-rendering: pixelated;
     background-position: 0px 600px;
