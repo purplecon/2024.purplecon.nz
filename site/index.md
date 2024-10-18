@@ -2,6 +2,17 @@
 layout: home
 ---
 
+<section>
+  <main>
+    <a href="https://www.eventbrite.co.nz/e/purplecon-2024-tickets-1004911195437" target="_blank" class="button">
+      <span>get tickets</span>
+    </a>
+    <a href="https://docs.google.com/forms/d/1EM8H1AZdbzaYM65orkZRUIikqIZ0uy2KvHf4Sb6eUR0/" target="_blank" class="button">
+      <span>be a volunteer</span>
+    </a>
+  </main>
+</section>
+
 <section class="mid">
   <p>security wisdom | rebelling in your own way | <span class="ethereal">together</span></p>
 </section>
