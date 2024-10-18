@@ -1,3 +1,14 @@
+## containers / security / a fun time -- pick two
+
+containers might be old news, but securing them sure as heck 'aint! it turns out we are still battling with age-old Unix problems with healthy helping of slightly-less-old Linux problems that have been maturing in oak casks with labels that just read "beware of the leopard". paths? procfs? persistently pesky pernicious problems? oh my! hold on to your hat and join me on a whirlwind tour of this lovely little tyre fire! was "/" a mistake? tune in to find out!
+
+### Aleksa
+
+Aleksa has worked on container technologies for the past decade <sup>(yikes, has it really been that long?! 😬)</sup>, maintaining the most commonly used Linux container runtime (runc) and Open Container Initiative specifications. He also does a fair amount of Linux kernel work for quite a few years, mostly focusing on trying to modernise kernel APIs to allow for more secure systems software on Linux.
+
+
+<hr />
+
 ## everything you need to know about cyber
 
 it is simply not possible to learn everything you need to know about cybersecurity in a 20 minute talk slot, but we're going to do it anyway
