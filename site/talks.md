@@ -14,6 +14,8 @@
   </header>
 </section>
 
+<img class="runsheet" src="/schedule.png" alt="a graphic showing the schedule for the day. a text version is available at /schedule"/>
+
 ----------------------------------------
 <br>
 <br>

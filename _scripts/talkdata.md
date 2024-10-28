@@ -122,6 +122,6 @@ Come along to find out more about how you can get started (or just come for the 
 
 ### Colin
 
-![heh](https://i.imgur.com/C5YGMWL.jpeg)
+<img src="/heh_bio.jpg" width="400px;">
 
 <hr />
