@@ -1,0 +1,45 @@
+<html class="purple-background no-scrolling">
+<link rel="stylesheet" href="/static/styles.css">
+
+<div id="carousel" class="purple-background">
+	<div class="carousel-item">
+		<!-- Runsheet -->
+		<img src="/schedule.png">
+	</div>
+	<div class="carousel-item hidden centered">
+		<img src="/shirt.png" class="fit-page">
+	</div>
+	<div class="carousel-item hidden">
+		<!-- Haiku Competition -->
+		<iframe src="https://2018.purplecon.nz/haiku/ " class="seamless-iframe" scrolling="no"></iframe>
+	</div>
+	<div class="carousel-item hidden sakura">
+		<!-- Sponsors -->
+
+		<iframe src="../sponsors_only.html" class="seamless-iframe" scrolling="no"></iframe>
+
+	</div>
+</div>
+
+<script>
+  function toggleHide(elem) {
+    if (elem.classList.contains("hidden")) {
+      elem.classList.remove("hidden");
+    } else {
+      elem.classList.add("hidden");
+    }
+  }
+
+  var i = 0;
+  function nextSlide() {
+    console.log("Changing slide");
+    var carouselItems = document.querySelectorAll(".carousel-item");
+    var numItems = carouselItems.length;
+    toggleHide(carouselItems[i]);
+    toggleHide(carouselItems[(i + 1) % numItems]);
+    i = (i + 1) % numItems;
+    setTimeout(nextSlide, 15000);
+  }
+  nextSlide();
+</script>
+</html>
