@@ -16,13 +16,12 @@ layout: home
 <section class="mid">
   <p>security wisdom | rebelling in your own way | <span class="ethereal">together</span></p>
 </section>
-
 <hr>
 
 <section class="mid">
 <ul class="no-dots left">
   <li> 📅 8th november 2024</li>
-  <li> 📍the state <span class="fancy">Library</span> of new south wales, sydney, australia</li>
+  <li> 📍the <a href="/faq">state <span class="fancy">Library</span> of new south wales</a>, sydney, australia</li>
 </ul>
 </section>
 <hr>

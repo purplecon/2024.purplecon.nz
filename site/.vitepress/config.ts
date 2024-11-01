@@ -65,12 +65,20 @@ export default defineConfigWithTheme<ThemeConfig>({
         href: '/tickets',
       },
       {
+        title: 'venue',
+        href: '/faq',
+      },
+      {
         title: 'go inside?',
         href: '/library',
       },
       {
         title: '$ponsors',
         href: '/sponsors',
+      },
+      {
+        title: 'livestream',
+        href: '/livestream',
       },
       {
         title: 'merch',
