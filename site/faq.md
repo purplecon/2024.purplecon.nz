@@ -18,15 +18,34 @@ accessibility at the library.
 
 ### where in the library is purplecon?
 
-![a photograph of the auditorium at the state library of new south wales](https://www.sl.nsw.gov.au/sites/default/files/styles/half_width_banner/public/state_library_auditorium-27_0.jpg?h=34bbd072&itok=RVQvr60k)
-
 all talks will be presented in the [auditorium](https://www.sl.nsw.gov.au/gallery-items/library-auditorium), which is
 located below the mitchell library reading room.
 
+![a photograph of the auditorium at the state library of new south wales](https://www.sl.nsw.gov.au/sites/default/files/styles/half_width_banner/public/state_library_auditorium-27_0.jpg?h=34bbd072&itok=RVQvr60k)
+
+we have also booked the [dixson room](https://www.sl.nsw.gov.au/gallery-items/dixson-room) for all non-talk
+activities.
+
 ![a photograph of a brightly-lit room at the state library of new south wales](https://www.sl.nsw.gov.au/sites/default/files/styles/half_width_banner/public/dixson_room_-_theatre_style_2.jpg?h=06ac0d8c&itok=3dp-6PN6)
 
-we have also booked the neighbouring [dixson room](https://www.sl.nsw.gov.au/gallery-items/dixson-room) for all non-talk
-activities.
+### how can I get to the auditorium?
+
+<img src="/SLNSW_Floorplan_annotated.png" width="100%;" alt="A floorplan of the State Library of NSW">
+
+the easiest way to get in is through the **macquarie street entrance**. enter and go down the stairs, then walk forwards into the building until you reach the glasshouse:
+
+![a photograph of a brightly-lit atrium with a glass ceiling](https://www.sl.nsw.gov.au/sites/default/files/styles/half_width_banner/public/state_library_auditorium-22_0.jpg?h=34bbd072&itok=sKu5DmZn)
+
+the auditorium door can be entered through here.
+
+### how do i get to the dixson room?
+
+go out of the glasshouse and head one floor up, then follow signs to the dixson room. we will lead people over there during breaks. there will also be volunteers to help you find the room.
+
+### what if i get lost?
+
+there are information desks at **both** of the library's entrances where you can ask for directions to the auditorium.
+
 
 # registration
 

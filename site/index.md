@@ -10,6 +10,12 @@ layout: home
     <a href="https://docs.google.com/forms/d/1EM8H1AZdbzaYM65orkZRUIikqIZ0uy2KvHf4Sb6eUR0/" target="_blank" class="button">
       <span>be a volunteer</span>
     </a>
+    <a href="/faq" target="_blank" class="button">
+          <span>faq</span>
+        </a>
+<a href="/talks" target="_blank" class="button">
+          <span>schedule</span>
+        </a>
   </main>
 </section>
 

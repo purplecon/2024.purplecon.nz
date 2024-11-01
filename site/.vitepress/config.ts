@@ -73,6 +73,10 @@ export default defineConfigWithTheme<ThemeConfig>({
         href: '/sponsors',
       },
       {
+        title: 'faq',
+        href: '/faq',
+      },
+      {
         title: 'merch',
         href: 'https://www.redbubble.com/i/t-shirt/purplecon-2024-the-shirt-by-purplecon/164335381.VL7OD',
       },
