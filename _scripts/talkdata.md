@@ -122,6 +122,8 @@ Come along to find out more about how you can get started (or just come for the 
 
 ### Colin
 
-<img src="/heh_bio.jpg" width="400px;">
+<div class="escape-middle">
+  <img src="/heh_bio.jpg" width="400px;" />
+</div>
 
 <hr />
