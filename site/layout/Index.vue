@@ -42,7 +42,6 @@ a {
     background: #1b1d2e url(https://media.giphy.com/media/gG6xmgCgm4BadaD45x/giphy.gif);
     background-size: 4000px;
     image-rendering: pixelated;
-    background-position: 0px 600px;
     font-weight: 500;
     overflow: hidden;
     letter-spacing: -1px;
@@ -54,16 +53,28 @@ a {
       transition: transform 0.07s;
     }
 
-    &:hover span {
-      transform: scale(1.4) rotateZ(calc(var(--random-dir) * 0.1rad));
-      transition: transform 0.33s;
+    &:nth-child(3n+0) {
+      background-position: 0px 600px;
+
+      &:hover span {
+        transform: scale(1.4) rotateZ(calc(var(--random-dir) * 0.1rad));
+        transition: transform 0.33s;
+      }
     }
 
-    &:nth-child(2) {
+    &:nth-child(3n+1) {
       background-position: 128px 400px;
 
       &:hover span {
         transform: scale(1.4) rotateZ(calc(var(--random-dir) * -0.1rad));
+      }
+    }
+
+    &:nth-child(3n+2) {
+      background-position: 128px 480px;
+
+      &:hover span {
+        transform: scale(1.4) rotateZ(calc(var(--random-dir) * -0.08rad));
       }
     }
   }
@@ -71,6 +82,7 @@ a {
 
 html {
   min-width: 320px;
+  overflow-x: hidden;
 }
 body {
   background: #40315a;
@@ -89,7 +101,35 @@ body {
   margin: 0 auto;
   max-width: 800px;
   padding: 32px;
+
+  .escape-middle {
+    display: flex;
+    justify-content: center;
+    margin: 0 -32px; /* should be negative middle above */
+
+    > img {
+      max-width: 100vw;
+    }
+  }
 }
+
+.middle {
+
+  /**
+    This handles inline images where they're the only child - it makes them max width of mobile devices
+    as well as going to the edge of the page.
+   */
+  p:has(> img:only-child) {
+    display: flex;
+    justify-content: center;
+
+    img {
+      max-width: 100vw;
+      margin: 0 -32px;
+    }
+  }
+}
+
 </style>
 <template>
   <Nav />
