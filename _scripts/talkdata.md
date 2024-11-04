@@ -105,12 +105,11 @@ Hi! I’m Giuliana, a Security Testing engineer at Atlassian (or pentester, cart
 
 ## Data breaches: your casual end of year security problem
 
-This talk is aimed at those new to security. Every year (financial year) organisations send out tax summaries. Undesirably some of these are vulnerable to Insecure Direct Object Reference. This talks provides an intro to this area of security and how to avoid it
+Could you spot the next data leak? How secure are windows? This talk is at all levels.
 
 ### Adam Black
 
-A software engineer with a passion for security
-
+Adam Black is a Senior Software Engineer at Canva. Adam has a passion for security.
 
 <hr />
 
