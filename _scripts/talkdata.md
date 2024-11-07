@@ -1,15 +1,5 @@
-## containers / security / a fun time -- pick two
 
-containers might be old news, but securing them sure as heck 'aint! it turns out we are still battling with age-old Unix problems with healthy helping of slightly-less-old Linux problems that have been maturing in oak casks with labels that just read "beware of the leopard". paths? procfs? persistently pesky pernicious problems? oh my! hold on to your hat and join me on a whirlwind tour of this lovely little tyre fire! was "/" a mistake? tune in to find out!
-
-### Aleksa
-
-Aleksa has worked on container technologies for the past decade <sup>(yikes, has it really been that long?! 😬)</sup>, maintaining the most commonly used Linux container runtime (runc) and Open Container Initiative specifications. He also does a fair amount of Linux kernel work for quite a few years, mostly focusing on trying to modernise kernel APIs to allow for more secure systems software on Linux.
-
-
-<hr />
-
-## everything you need to know about cyber
+## [keynote] everything you need to know about cyber
 
 it is simply not possible to learn everything you need to know about cybersecurity in a 20 minute talk slot, but we're going to do it anyway
 
@@ -21,7 +11,7 @@ Liam started his career in cyber so long ago that it was still called infosec. H
 <hr />
 
 
-## the dangers of serverless & IAM proliferation
+## [keynote] the dangers of serverless & IAM proliferation
 
 grug dislikes complex software (and security model) which is like ball with million spikes, makes grug brain sore just by holding. instead grug thinks treat whole ball like sandpaper, all together low-level spiky. grug will permit small number of big spikes because easier to understand where actual risky bits are, like bear cave over there.
 
@@ -33,7 +23,7 @@ I have opinions™
 <hr />
 
 
-## Burnout: From Recognition to Recovery
+## [keynote] Burnout: From Recognition to Recovery
 
 Have you been feeling more stressed and exhausted lately? You are not alone.
 
@@ -47,7 +37,7 @@ Ash is an engineer working in product security and incident response. They are p
 <hr />
 
 
-## tips to build and repair empathy with other teams
+## [keynote] tips to build and repair empathy with other teams
 
 Any outcome works better if the teams involved work together instead of against each other. But many teams I've worked in have had longstanding issues, misunderstandings or grudges, which caused stress and poorer work outcomes for all involved.
 
@@ -61,7 +51,7 @@ cait lives in Naarm Melbourne with their cat Mickey and works as a consultant wi
 <hr />
 
 
-## Where Did It Come From, Where Did It Go? What the Heck is an OAuth Flow?
+## [keynote] Where Did It Come From, Where Did It Go? What the Heck is an OAuth Flow?
 
 OAuth can feel like a big, scary monster full of techy jargon and tricky standards. But it doesn't have to be that way! Ever clicked "Connect with Apple" or allowed an app to access your calendar? That’s OAuth in action! Join us for a friendly and easy-to-understand exploration of OAuth, specially crafted for beginners.
 
@@ -75,7 +65,7 @@ Laura and Angus are best friends, and Application Security Engineers at Canva. L
 <hr />
 
 
-## 🙋❓🙋 why❓🤔 chrome 🌐 🙅🚫 removed 🚫🙅 the 🔒 lock 🫨 icon 🤷🤷
+## [keynote] 🙋❓🙋 why❓🤔 chrome 🌐 🙅🚫 removed 🚫🙅 the 🔒 lock 🫨 icon 🤷🤷
 
 if you've been particularly eagle-eyed, you might've noticed that within the past year or so, the lock icon disappeared from Chrome's address bar. this is the story of why and how that happened, and maybe it's secretly a story about HTTPS and the web ecosystem and the sisyphean task of securing the web as a whole...... 
 
@@ -89,7 +79,7 @@ serena is an ex-physicist and mathematician, once teen magazine editor-in-chief,
 <hr />
 
 
-## It’s easier to Pirate with an Atlas…sian
+## [keynote] It’s easier to Pirate with an Atlas…sian
 
 Have you ever wondered exactly how people pirate software? What are the tools and techniques they used? At Atlassian, every new penetration tester writes a crack for Jira during their first couple of weeks. Why? Because those same tools and techniques used to pirate software are critical skills needed to perform effective security tests & research. In this talk, I’m going to teach some of those techniques to you too! We’ll dive into pirating software together, exploring how we can modify and debug code.
 
@@ -103,7 +93,7 @@ Hi! I’m Giuliana, a Security Testing engineer at Atlassian (or pentester, cart
 
 
 
-## Data breaches: your casual end of year security problem
+## [keynote] Data breaches: your casual end of year security problem
 
 Could you spot the next data leak? How secure are windows? This talk is at all levels.
 
@@ -113,7 +103,18 @@ Adam Black is a Senior Software Engineer at Canva. Adam has a passion for securi
 
 <hr />
 
-## plugins on fire
+## [keynote] containers / security / a fun time -- pick two
+
+containers might be old news, but securing them sure as heck 'aint! it turns out we are still battling with age-old Unix problems with healthy helping of slightly-less-old Linux problems that have been maturing in oak casks with labels that just read "beware of the leopard". paths? procfs? persistently pesky pernicious problems? oh my! hold on to your hat and join me on a whirlwind tour of this lovely little tyre fire! was "/" a mistake? tune in to find out!
+
+### Aleksa
+
+Aleksa has worked on container technologies for the past decade <sup>(yikes, has it really been that long?! 😬)</sup>, maintaining the most commonly used Linux container runtime (runc) and Open Container Initiative specifications. He also does a fair amount of Linux kernel work for quite a few years, mostly focusing on trying to modernise kernel APIs to allow for more secure systems software on Linux.
+
+
+<hr />
+
+## [keynote] plugins on fire
 
 If you're new to security code review or bug bounties, finding vulnerabilities in WordPress plugins could be a gentle entrypoint that allows you to learn by doing, while racking up CVEs and a bit of money along the way - not to mention you'll be improving the security of thousands (or even millions!) of sites that rely on these plugins.
 
