@@ -7,6 +7,10 @@ it is simply not possible to learn everything you need to know about cybersecuri
 
 Liam started his career in cyber so long ago that it was still called infosec. He worked for many years as a software engineer before discovering that breaking things could be more fun than building things and jumped the fence to offensive security. He has worked as a pentester for over 10 years. Liam is enthusiastic about ducks
 
+### great archive submission
+
+[purplecon-2024-liam-everything-cyber.pdf](/archive/purplecon-2024-liam-everything-cyber.pdf)
+
 <hr />
 
 
@@ -74,6 +78,17 @@ Hi! I’m Giuliana, a Security Testing engineer at Atlassian (or pentester, cart
 <hr />
 
 
+## [keynote] containers / security / a fun time -- pick two
+
+containers might be old news, but securing them sure as heck 'aint! it turns out we are still battling with age-old Unix problems with healthy helping of slightly-less-old Linux problems that have been maturing in oak casks with labels that just read "beware of the leopard". paths? procfs? persistently pesky pernicious problems? oh my! hold on to your hat and join me on a whirlwind tour of this lovely little tyre fire! was "/" a mistake? tune in to find out!
+
+### Aleksa
+
+Aleksa has worked on container technologies for the past decade <sup>(yikes, has it really been that long?! 😬)</sup>, maintaining the most commonly used Linux container runtime (runc) and Open Container Initiative specifications. He also does a fair amount of Linux kernel work for quite a few years, mostly focusing on trying to modernise kernel APIs to allow for more secure systems software on Linux.
+
+<hr />
+
+
 ## [keynote] plugins on fire
 
 If you're new to security code review or bug bounties, finding vulnerabilities in WordPress plugins could be a gentle entrypoint that allows you to learn by doing, while racking up CVEs and a bit of money along the way - not to mention you'll be improving the security of thousands (or even millions!) of sites that rely on these plugins.
@@ -83,6 +98,10 @@ Come along to find out more about how you can get started (or just come for the 
 ### Colin
 
 𓁹‿𓁹 heh
+
+### great archive submission
+
+[https://hackmd.io/@3TuSi7xDS-GMp7ZFbJPcoA/Bk_W2Pnbye](https://hackmd.io/@3TuSi7xDS-GMp7ZFbJPcoA/Bk_W2Pnbye)
 
 <hr />
 

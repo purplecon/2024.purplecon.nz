@@ -33,10 +33,10 @@ with open("talks.csv", newline="") as csvfile:
 
         # Filename of the speaker's Great Archive submission (single file only)
         # These files are expected to be in the site/public/archive directory, so put them there manually pls <3 
-        archive_filename = row[-1].strip()
+        archive_filename_or_link = row[-1].strip()
 
         talkid = make_id(speaker)
-        clean_row = list([talkid, title, abstract, speaker, bio, archive_filename])
+        clean_row = list([talkid, title, abstract, speaker, bio, archive_filename_or_link])
         if is_accepted and is_confirmed:
             print(clean_row)
             talks.append(clean_row)
@@ -66,19 +66,25 @@ TALK_MD_TEMPLATE = """
 ARCHIVE_TEMPLATE = """
 ### great archive submission
 
-[{archive_filename}](/archive/{archive_filename_urlencoded})
+{archive_content}
 """
 
 all_talks = []
 for talk in talks:
     # Extract the great archive filename they submitted, if any, and insert it into the markdown.
-    archive_filename = talk[5]
-    archive_filename_urlencoded = urllib.parse.quote(archive_filename)
 
-    if archive_filename:
-        website_archive_section = ARCHIVE_TEMPLATE.format(archive_filename=archive_filename, archive_filename_urlencoded=archive_filename_urlencoded)
+    archive_filename_or_link = talk[5]
+    if archive_filename_or_link:
+        if archive_filename_or_link.startswith("https://"):
+            archive_content = f"[{archive_filename_or_link}]({archive_filename_or_link})"
+        else:
+            archive_filename_urlencoded = urllib.parse.quote(archive_filename_or_link)
+            archive_content = f"[{archive_filename_or_link}](/archive/{archive_filename_urlencoded})"
+
+        website_archive_section = ARCHIVE_TEMPLATE.format(archive_filename=archive_filename_or_link, archive_content=archive_content)
     else:
         website_archive_section = ""
+
     talk_md = TALK_MD_TEMPLATE.format(
         title=talk[1], abstract=talk[2], speaker=talk[3], bio=talk[4], archive_template=website_archive_section
     )
