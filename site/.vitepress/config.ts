@@ -78,7 +78,7 @@ export default defineConfigWithTheme<ThemeConfig>({
       },
       {
         title: 'livestream',
-        href: '/livestream',
+        href: 'https://www.youtube.com/playlist?list=PLS45xFo74VF5Sf-JszDr5gzWmU9r3QsS3',
       },
       {
         title: 'merch',
