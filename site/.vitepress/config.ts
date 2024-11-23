@@ -16,6 +16,8 @@ The site is built with VitePress, which has its config here:
   https://vitepress.dev/reference/site-config
 */
 
+
+
 export default defineConfigWithTheme<ThemeConfig>({
   lang: 'en',
   title: 'purplecon',
