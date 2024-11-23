@@ -27,7 +27,7 @@ for anyone who wasn't there, here are pics 💜
 
 on the day, you'd walk through the library halls, vibrating rapidly alongside your fellow tweens, trying to contain your excitement at being in a library.
 
-![a photograph of doors](static/diary/doors.HEIC)
+![a photograph of doors](static/diary/doors.jpg)
 
 ![a photograph of wristbands](static/diary/wristbands.jpg)
 *we used wristbands instead of lanyards! (only one tho, alex just got too keen. temporary tattoos also not strictly required. but u could.)*
@@ -35,7 +35,7 @@ on the day, you'd walk through the library halls, vibrating rapidly alongside yo
 ![a photograph of nametags](static/diary/nametags.jpg)
 *pov u are about to decorate ur nametag and also u are 6 years old*
 
-![a photograph of bubble tea](static/diary/bubbletea.HEIC)
+![a photograph of bubble tea](static/diary/bubbletea.jpg)
 *we have set precedents that MUST be kept*
 
 ![a photograph of drawings](static/diary/drawings-star.jpg)
