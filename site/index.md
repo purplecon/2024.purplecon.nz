@@ -4,17 +4,11 @@ layout: home
 
 <section>
   <main>
-    <a href="https://www.eventbrite.co.nz/e/purplecon-2024-tickets-1004911195437" target="_blank" class="button">
-      <span>get tickets</span>
+    <a href="https://www.youtube.com/playlist?list=PLS45xFo74VF5Sf-JszDr5gzWmU9r3QsS3" target="_blank" class="button">
+      <span>talk recordings</span>
     </a>
-    <a href="/livestream" target="_blank" class="button">
-      <span>livestream</span>
-    </a>
-    <a href="/faq" target="_blank" class="button">
-          <span>faq</span>
-        </a>
-<a href="/talks" target="_blank" class="button">
-          <span>schedule</span>
+<a href="/diary" class="button">
+          <span>diary entry</span>
         </a>
   </main>
 </section>

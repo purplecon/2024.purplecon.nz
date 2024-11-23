@@ -131,6 +131,10 @@ grug dislikes complex software (and security model) which is like ball with mill
 
 I have opinions™
 
+### great archive submission
+
+[samthor purplecon.pdf](/archive/samthor%20purplecon.pdf)
+
 <hr />
 
 
@@ -143,5 +147,9 @@ it's just an icon, michael. how hard could it be to remove?
 ### serena chen
 
 serena is an ex-physicist and mathematician, once teen magazine editor-in-chief, foosball enthusiast and hacker at heart. for her day job she's cyber aesthetics doctor at google chrome, leading UX for chrome security.
+
+### great archive submission
+
+[💜 why chrome removed the lock icon 💜 purplecon sydney 2024 💜.pdf](/archive/%F0%9F%92%9C%20why%20chrome%20removed%20the%20lock%20icon%20%F0%9F%92%9C%20purplecon%20sydney%202024%20%F0%9F%92%9C.pdf)
 
 <hr />

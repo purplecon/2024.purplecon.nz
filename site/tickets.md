@@ -9,11 +9,7 @@
     </div>
     <div class="heading">
       <h1>tickets</h1>
-      <ul class="no-dots">
-        <li><strong>wave 1 release: </strong>september 8th, 7am aest / 9am nzst </li>
-        <li><strong>wave 2 release: </strong>september 8th, 6pm aest / 8pm nzst </li>
-        <li><strong><a target="_blank" href="https://www.eventbrite.co.nz/e/purplecon-2024-tickets-1004911195437">~~get your tickets here~~</a></strong></li>
-      </ul>
+      <p>you can't get tickets for a purplecon in the past, bozo. unless....time travel tickets?? here is the ticket page anyway</p>
     </div>
   </header>
 </section>

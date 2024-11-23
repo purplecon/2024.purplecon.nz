@@ -9,8 +9,7 @@
     </div>
     <div class="heading">
       <h1>submit a talk</h1>
-      <p><a href="https://forms.gle/EvY14HLVjwuWuNNG9"><span class="ethereal">talk submissions open now 👀</span></a></p>
-      <p><strong>submissions close</strong>: september 1</p>
+      <p><strong>submissions closed bc purplecon already happened, think about it</strong></p>
     </div>
   </header>
 </section>

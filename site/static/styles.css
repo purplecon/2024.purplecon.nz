@@ -67,7 +67,23 @@ span {
   }
 
 }
+/* markdown images */
+p {
+  img {
+    max-width: 100% !important;
+    height: auto;
+    display: block;
+    margin: 2vh auto;
 
+  }
+  /* captions */
+  img + em {
+    display: block;
+    text-align: center;
+    margin-top: -1vh;
+
+  }
+}
 ul {
   &.left {
     text-align: left;
