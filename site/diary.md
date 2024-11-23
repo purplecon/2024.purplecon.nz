@@ -44,7 +44,7 @@ on the day, you'd walk through the library halls, vibrating rapidly alongside yo
 ![a guestbook in a nearby wing of the library that was subject to purplecon-sticker collateral damage](static/diary/guestbook-vandalism.jpg)
 *guestbook in a nearby wing of the library that was subject to purplecon-sticker collateral damage*
 
-![piracy is brat](static/diary/brat.JPG)
+![piracy is brat](static/diary/brat.jpg)
 *there were also [highly educational conference materials](https://www.youtube.com/watch?v=SqZBIn0LoCk&list=PLS45xFo74VF5Sf-JszDr5gzWmU9r3QsS3&index=8)*
 ![a photograph of rust](static/diary/rust.jpg)
 *thank u [serena](https://www.youtube.com/watch?v=iUAxmOFl78w&list=PLS45xFo74VF5Sf-JszDr5gzWmU9r3QsS3&index=2)*
