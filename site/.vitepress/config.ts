@@ -53,6 +53,10 @@ export default defineConfigWithTheme<ThemeConfig>({
         href: '/',
       },
       {
+        title: 'diary',
+        href: '/diary',
+      },
+      {
         title: 'talks',
         href: '/talks',
       },

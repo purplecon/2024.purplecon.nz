@@ -7,8 +7,8 @@ layout: home
     <a href="https://www.youtube.com/playlist?list=PLS45xFo74VF5Sf-JszDr5gzWmU9r3QsS3" target="_blank" class="button">
       <span>talk recordings</span>
     </a>
-<a href="/talks" target="_blank" class="button">
-          <span>talk archive</span>
+<a href="/diary" class="button">
+          <span>diary entry</span>
         </a>
   </main>
 </section>
