@@ -32,6 +32,5 @@ $ pnpm install
 $ node --run site:dev
 ```
 
-
 ## Implementation details
 Uses [Vitepress](https://vitepress.dev/) in its MPA mode (so less JS).
